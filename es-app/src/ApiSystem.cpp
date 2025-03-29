@@ -191,7 +191,7 @@ std::pair<std::string, int> ApiSystem::updateSystem(const std::function<void(con
 {
 	LOG(LogDebug) << "ApiSystem::updateSystem";
 
-	std::string updatecommand = "system-upgrade";
+	std::string updatecommand = "rocknix-update";
 
 	FILE *pipe = popen(updatecommand.c_str(), "r");
 	if (pipe == nullptr)
@@ -328,7 +328,7 @@ bool ApiSystem::canUpdate(std::vector<std::string>& output)
 {
 	LOG(LogDebug) << "ApiSystem::canUpdate";
 
-	FILE *pipe = popen("updatecheck", "r");
+	FILE *pipe = popen("rocknix-update check", "r");
 	if (pipe == NULL)
 		return false;
 
@@ -1727,7 +1727,7 @@ bool ApiSystem::isScriptingSupported(ScriptId script)
 		executables.push_back("batocera-support");
 		break;
 	case ApiSystem::UPGRADE:
-		executables.push_back("system-upgrade");
+		executables.push_back("rocknix-update");
 		break;
 	case ApiSystem::SUSPEND:
 		return (Utils::FileSystem::exists("/usr/sbin/pm-suspend") && Utils::FileSystem::exists("/usr/bin/pm-is-supported") && executeScript("/usr/bin/pm-is-supported --suspend"));
