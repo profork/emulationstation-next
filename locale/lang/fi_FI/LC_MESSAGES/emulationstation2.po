@@ -554,6 +554,18 @@ msgstr ""
 msgid "CUSTOM RELAY SERVER"
 msgstr ""
 
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr ""
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr ""
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr ""
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr ""
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "NÄYTÄ EI SAATAVILLA OLEVAT PELIT"
 
@@ -2545,9 +2557,6 @@ msgstr "Valitse pelialue johon liittyä"
 msgid "FAILED"
 msgstr "EPÄONNISTUI"
 
-msgid "NO GAMES FOUND"
-msgstr "PELEJÄ EI LÖYTYNYT"
-
 msgid "UNKNOWN ROM VERSION"
 msgstr "TUNTEMATON ROM-VERSIO"
 
@@ -2560,6 +2569,9 @@ msgstr "SAMA ROM"
 msgid "UNAVAILABLE CORE"
 msgstr "YDIN EI SAATAVILLA"
 
+msgid "LAN GAMES"
+msgstr ""
+
 msgid "ONLINE GAMES"
 msgstr ""
 
@@ -2569,8 +2581,8 @@ msgstr "SAATAVILLA OLEVAT PELIT"
 msgid "UNAVAILABLE GAMES"
 msgstr "EI SAATAVILLA OLEVAT PELIT"
 
-msgid "LAN GAMES"
-msgstr ""
+msgid "NO GAMES FOUND"
+msgstr "PELEJÄ EI LÖYTYNYT"
 
 msgid "JOIN GAME"
 msgstr "LIITY PELIIN"

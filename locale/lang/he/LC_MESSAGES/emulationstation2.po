@@ -552,6 +552,18 @@ msgstr ""
 msgid "CUSTOM RELAY SERVER"
 msgstr ""
 
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr ""
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr ""
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr ""
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr ""
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "הצג משחקים לא זמינים"
 
@@ -2511,9 +2523,6 @@ msgstr "בחר לובי משחק בכדי להתחבר"
 msgid "FAILED"
 msgstr "נכשל"
 
-msgid "NO GAMES FOUND"
-msgstr "לא נמצאו משחקים"
-
 msgid "UNKNOWN ROM VERSION"
 msgstr "גרסה לא ידועה ROM"
 
@@ -2526,6 +2535,9 @@ msgstr "אותו ה ROM"
 msgid "UNAVAILABLE CORE"
 msgstr "ליבה לא זמינה"
 
+msgid "LAN GAMES"
+msgstr ""
+
 msgid "ONLINE GAMES"
 msgstr ""
 
@@ -2535,8 +2547,8 @@ msgstr "משחקים זמנים"
 msgid "UNAVAILABLE GAMES"
 msgstr "משחקים לא זמינים"
 
-msgid "LAN GAMES"
-msgstr ""
+msgid "NO GAMES FOUND"
+msgstr "לא נמצאו משחקים"
 
 msgid "JOIN GAME"
 msgstr "הצטרפות למשחק"

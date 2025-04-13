@@ -546,6 +546,18 @@ msgstr ""
 msgid "CUSTOM RELAY SERVER"
 msgstr ""
 
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr ""
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr ""
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr ""
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr ""
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr ""
 
@@ -2505,9 +2517,6 @@ msgstr ""
 msgid "FAILED"
 msgstr ""
 
-msgid "NO GAMES FOUND"
-msgstr ""
-
 msgid "UNKNOWN ROM VERSION"
 msgstr ""
 
@@ -2520,6 +2529,9 @@ msgstr ""
 msgid "UNAVAILABLE CORE"
 msgstr ""
 
+msgid "LAN GAMES"
+msgstr ""
+
 msgid "ONLINE GAMES"
 msgstr ""
 
@@ -2529,7 +2541,7 @@ msgstr ""
 msgid "UNAVAILABLE GAMES"
 msgstr ""
 
-msgid "LAN GAMES"
+msgid "NO GAMES FOUND"
 msgstr ""
 
 msgid "JOIN GAME"

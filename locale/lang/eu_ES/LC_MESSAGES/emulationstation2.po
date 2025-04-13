@@ -546,6 +546,18 @@ msgstr ""
 msgid "CUSTOM RELAY SERVER"
 msgstr ""
 
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr ""
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr ""
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr ""
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr ""
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "ERAKUTSI ESKURAGARRI EZ DAUDEN JOKOAK"
 
@@ -2554,9 +2566,6 @@ msgstr "Aukeratu zein joko gelara batu nahi duzun"
 msgid "FAILED"
 msgstr "HUTS EGIN DU"
 
-msgid "NO GAMES FOUND"
-msgstr "EZ DA JOKORIK AURKITU"
-
 msgid "UNKNOWN ROM VERSION"
 msgstr "ROM BERTSIO EZEZAGUNA"
 
@@ -2569,6 +2578,9 @@ msgstr "ROM BERDINA"
 msgid "UNAVAILABLE CORE"
 msgstr "NUKLEO ESKURAEZINA"
 
+msgid "LAN GAMES"
+msgstr ""
+
 msgid "ONLINE GAMES"
 msgstr ""
 
@@ -2578,8 +2590,8 @@ msgstr "JOKO ESKURAGARRIAK"
 msgid "UNAVAILABLE GAMES"
 msgstr "JOKO ESKURAEZINAK"
 
-msgid "LAN GAMES"
-msgstr ""
+msgid "NO GAMES FOUND"
+msgstr "EZ DA JOKORIK AURKITU"
 
 msgid "JOIN GAME"
 msgstr "BATU JOKORA"

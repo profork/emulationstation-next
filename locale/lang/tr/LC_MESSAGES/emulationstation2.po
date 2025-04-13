@@ -549,6 +549,18 @@ msgstr "ÖZEL"
 msgid "CUSTOM RELAY SERVER"
 msgstr "ÖZEL RELAY SUNUCUSU"
 
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr ""
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr ""
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr ""
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr ""
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "MEVCUT OLMAYAN OYUNLARI GÖSTER"
 
@@ -2555,9 +2567,6 @@ msgstr "Katılmak için oyun lobisi seç"
 msgid "FAILED"
 msgstr "BAŞARISIZ"
 
-msgid "NO GAMES FOUND"
-msgstr "HİÇBİR OYUN BULUNAMADI"
-
 msgid "UNKNOWN ROM VERSION"
 msgstr "BİLİNMEYEN ROM VERSİYONU"
 
@@ -2570,6 +2579,9 @@ msgstr "AYNI ROM"
 msgid "UNAVAILABLE CORE"
 msgstr "MEVCUT OLMAYAN ÇEKİRDEK"
 
+msgid "LAN GAMES"
+msgstr ""
+
 msgid "ONLINE GAMES"
 msgstr ""
 
@@ -2579,8 +2591,8 @@ msgstr "MEVCUT OYUNLAR"
 msgid "UNAVAILABLE GAMES"
 msgstr "MEVCUT OLMAYAN OYUNLAR"
 
-msgid "LAN GAMES"
-msgstr ""
+msgid "NO GAMES FOUND"
+msgstr "HİÇBİR OYUN BULUNAMADI"
 
 msgid "JOIN GAME"
 msgstr "OYUNA KATIL"

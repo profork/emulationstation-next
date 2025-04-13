@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-01-09 13:58+0100\n"
+"PO-Revision-Date: 2025-04-02 11:38+0200\n"
 "Last-Translator: Szoldán Albert\n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -548,6 +548,18 @@ msgstr "EGYEDI"
 
 msgid "CUSTOM RELAY SERVER"
 msgstr "EGYÉNI RELAY SZERVER"
+
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr "AUTOMATIKUSAN LÉTREHOZZA A LOBBIT"
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr "A játék indításakor automatikusan létrehoz egy Netplay-lobbit."
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr "CSAK RELAY SZERVER JÁTÉKOK MUTATÁSA"
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr "Relay szerver játékoknak nagyobb az esélyük a sikeres csatlakozáshoz."
 
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "NEM ELÉRHETŐ JÁTÉKOK MEGJELENÍTÉSE"
@@ -2567,9 +2579,6 @@ msgstr "Válassza ki azt a játéklobbyt, amelyhez csatlakozni szeretne"
 msgid "FAILED"
 msgstr "SIKERTELEN"
 
-msgid "NO GAMES FOUND"
-msgstr "NEM TALÁLHATÓ JÁTÉK"
-
 msgid "UNKNOWN ROM VERSION"
 msgstr "ISMERETLEN ROM VERZIÓ"
 
@@ -2582,8 +2591,11 @@ msgstr "AZONOS ROM"
 msgid "UNAVAILABLE CORE"
 msgstr "NEM ELÉRHETŐ CORE"
 
+msgid "LAN GAMES"
+msgstr "LAN JÁTÉKOK"
+
 msgid "ONLINE GAMES"
-msgstr ""
+msgstr "ONLINE JÁTÉKOK"
 
 msgid "AVAILABLE GAMES"
 msgstr "ELÉRHETŐ JÁTÉKOK"
@@ -2591,8 +2603,8 @@ msgstr "ELÉRHETŐ JÁTÉKOK"
 msgid "UNAVAILABLE GAMES"
 msgstr "NEM ELÉRHETŐ JÁTÉKOK"
 
-msgid "LAN GAMES"
-msgstr ""
+msgid "NO GAMES FOUND"
+msgstr "NEM TALÁLHATÓ JÁTÉK"
 
 msgid "JOIN GAME"
 msgstr "CSATLAKOZÁS JÁTÉKHOZ"
@@ -2669,10 +2681,10 @@ msgid "DRAW GUN CROSSHAIR"
 msgstr "PISZTOLY CÉLKERESZTET RAJZOLÁS"
 
 msgid "BEHAVIOR"
-msgstr ""
+msgstr "VISELKEDÉS"
 
 msgid "RESTRICT HOTKEYS TO EXIT"
-msgstr ""
+msgstr "A KILÉPÉSHEZ SZÜKSÉGES GYORSBILLENTYŰK KORLÁTOZÁSA"
 
 msgid "default"
 msgstr "alap"
@@ -2852,13 +2864,13 @@ msgid "SHOW GAME INFO"
 msgstr "JÁTÉK INFORMÁCIÓK MEGJELENÍTÉSE"
 
 msgid "SHOW DATE TIME"
-msgstr ""
+msgstr "DÁTUM IDŐ MEGJELENÍTÉS"
 
 msgid "DATE FORMAT"
-msgstr ""
+msgstr "DÁTUM FORMÁTUM"
 
 msgid "TIME FORMAT"
-msgstr ""
+msgstr "IDŐ FORMÁTUM"
 
 msgid "USE MARQUEE AS GAME INFO"
 msgstr "MARQUEE HASZNÁLATA JÁTÉK INFORMÁCIÓKÉNT"
@@ -3136,7 +3148,7 @@ msgid "UKNOWN ERROR"
 msgstr "ISMERETLEN HIBA"
 
 msgid "Interlaced"
-msgstr ""
+msgstr "Váltott soros"
 
 msgid "all games"
 msgstr "minden játék"
@@ -3591,13 +3603,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Lehetővé teszi az online és offline választást, vagy egy másik játékhoz "
 #~ "való csatlakozást."
-
-#~ msgid "SHOW RELAY SERVER GAMES ONLY"
-#~ msgstr "CSAK RELAY SZERVER JÁTÉKOK MUTATÁSA"
-
-#~ msgid "Relay server games have a higher chance of successful entry."
-#~ msgstr ""
-#~ "Relay szerver játékoknak nagyobb az esélyük a sikeres csatlakozáshoz."
 
 #~ msgid "Select a game lobby to create or join"
 #~ msgstr ""

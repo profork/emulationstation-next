@@ -551,6 +551,18 @@ msgstr "WŁASNY"
 msgid "CUSTOM RELAY SERVER"
 msgstr "WŁASNY SERWER POŚREDNICZĄCY"
 
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr "AUTOMATYCZNIE UTWÓRZ LOBBY"
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr "Automatycznie tworzy lobby Netplay podczas rozpoczynania gry."
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr "POKAŻ TYLKO GRY Z SERWEREM POŚREDNICZĄCYM"
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr "Gry z serwerem pośredniczącym mają większą szansę na udane wejście."
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "POKAŻ NIEDOSTĘPNE GRY"
 
@@ -2560,9 +2572,6 @@ msgstr "Wybierz lobby gry do której chcesz dołączyć"
 msgid "FAILED"
 msgstr "NIE POWIODŁO SIĘ"
 
-msgid "NO GAMES FOUND"
-msgstr "NIE ZNALEZIONO GIER"
-
 msgid "UNKNOWN ROM VERSION"
 msgstr "NIEZNANA WERSJA ROM"
 
@@ -2575,8 +2584,11 @@ msgstr "TEN SAM ROM"
 msgid "UNAVAILABLE CORE"
 msgstr "NIEDOSTĘPNE JĄDRO EMULATORA"
 
+msgid "LAN GAMES"
+msgstr "GRY SIECIOWE"
+
 msgid "ONLINE GAMES"
-msgstr ""
+msgstr "GRY ONLINE"
 
 msgid "AVAILABLE GAMES"
 msgstr "DOSTĘPNE GRY"
@@ -2584,8 +2596,8 @@ msgstr "DOSTĘPNE GRY"
 msgid "UNAVAILABLE GAMES"
 msgstr "NIEDOSTĘPNE GRY"
 
-msgid "LAN GAMES"
-msgstr ""
+msgid "NO GAMES FOUND"
+msgstr "NIE ZNALEZIONO GIER"
 
 msgid "JOIN GAME"
 msgstr "DOŁĄCZ DO GRY"
@@ -2662,10 +2674,10 @@ msgid "DRAW GUN CROSSHAIR"
 msgstr "RYSUJ CELOWNIK BRONI"
 
 msgid "BEHAVIOR"
-msgstr ""
+msgstr "ZACHOWANIE"
 
 msgid "RESTRICT HOTKEYS TO EXIT"
-msgstr ""
+msgstr "OGRANICZ SKRÓTY DO WYJŚCIA"
 
 msgid "default"
 msgstr "domyślnie"
@@ -2845,13 +2857,13 @@ msgid "SHOW GAME INFO"
 msgstr "POKAŻ INFORMACJE O GRZE"
 
 msgid "SHOW DATE TIME"
-msgstr ""
+msgstr "POKAŻ CZAS I DATĘ"
 
 msgid "DATE FORMAT"
-msgstr ""
+msgstr "FORMAT DATY"
 
 msgid "TIME FORMAT"
-msgstr ""
+msgstr "FORMAT CZASU"
 
 msgid "USE MARQUEE AS GAME INFO"
 msgstr "UŻYJ MARQUEE JAKO INFORMACJI O GRZE"
@@ -3130,7 +3142,7 @@ msgid "UKNOWN ERROR"
 msgstr "NIEZNANY BŁĄD"
 
 msgid "Interlaced"
-msgstr ""
+msgstr "Z przeplotem"
 
 msgid "all games"
 msgstr "wszystkie gry"
@@ -3590,12 +3602,6 @@ msgstr ""
 
 #~ msgid "Allows choice of online, offline, or joining another game."
 #~ msgstr "Umożliwia wybór trybu online, offline lub dołączenie do innej gry."
-
-#~ msgid "SHOW RELAY SERVER GAMES ONLY"
-#~ msgstr "POKAŻ TYLKO GRY Z SERWEREM POŚREDNICZĄCYM"
-
-#~ msgid "Relay server games have a higher chance of successful entry."
-#~ msgstr "Gry z serwerem pośredniczącym mają większą szansę na udane wejście."
 
 #~ msgid "Select a game lobby to create or join"
 #~ msgstr "Wybierz lobby gry aby stworzyć lub dołączyć"

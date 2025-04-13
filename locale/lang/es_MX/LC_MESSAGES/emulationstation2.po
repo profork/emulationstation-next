@@ -551,6 +551,18 @@ msgstr ""
 msgid "CUSTOM RELAY SERVER"
 msgstr ""
 
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr ""
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr ""
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr ""
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr ""
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "MOSTRAR JUEGOS NO DISPONIBLES"
 
@@ -2560,9 +2572,6 @@ msgstr "Selecciona una sala de juego para unirte"
 msgid "FAILED"
 msgstr "FALLÓ"
 
-msgid "NO GAMES FOUND"
-msgstr "NO SE HAN ENCONTRADO JUEGOS"
-
 msgid "UNKNOWN ROM VERSION"
 msgstr "VERSIÓN DESCONOCIDA DE LA ROM"
 
@@ -2575,6 +2584,9 @@ msgstr "LA ROM ES IGUAL"
 msgid "UNAVAILABLE CORE"
 msgstr "NÚCLEO NO DISPONIBLE"
 
+msgid "LAN GAMES"
+msgstr ""
+
 msgid "ONLINE GAMES"
 msgstr ""
 
@@ -2584,8 +2596,8 @@ msgstr "JUEGOS DISPONIBLES"
 msgid "UNAVAILABLE GAMES"
 msgstr "JUEGOS NO DISPONIBLES"
 
-msgid "LAN GAMES"
-msgstr ""
+msgid "NO GAMES FOUND"
+msgstr "NO SE HAN ENCONTRADO JUEGOS"
 
 msgid "JOIN GAME"
 msgstr "UNIRTE A LA PARTIDA"

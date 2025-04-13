@@ -587,6 +587,18 @@ msgstr "مخصص"
 msgid "CUSTOM RELAY SERVER"
 msgstr "خادم التتابع المخصص"
 
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr ""
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr ""
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr "عرض ألعاب خادم التتابع فقط"
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr "تتمتع ألعاب خادم التتابع بفرصة أعلى للدخول الناجح."
+
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "عرض الألعاب الغير موجودة"
 
@@ -2569,9 +2581,6 @@ msgstr "اختر حُجرَة اللعبة للانضمام"
 msgid "FAILED"
 msgstr "فشل"
 
-msgid "NO GAMES FOUND"
-msgstr "لا توجد ألعاب"
-
 msgid "UNKNOWN ROM VERSION"
 msgstr "نسخة مِلف اللعبة (روم) غير معروفة"
 
@@ -2584,6 +2593,9 @@ msgstr "نفس الروم"
 msgid "UNAVAILABLE CORE"
 msgstr "النواة غير متوفرة"
 
+msgid "LAN GAMES"
+msgstr ""
+
 msgid "ONLINE GAMES"
 msgstr ""
 
@@ -2593,8 +2605,8 @@ msgstr "ألعاب متوفرة"
 msgid "UNAVAILABLE GAMES"
 msgstr "ألعاب غير متوفرة"
 
-msgid "LAN GAMES"
-msgstr ""
+msgid "NO GAMES FOUND"
+msgstr "لا توجد ألعاب"
 
 msgid "JOIN GAME"
 msgstr "الانضمام إلى لُعبة"
@@ -3636,12 +3648,6 @@ msgstr ""
 #~ msgstr ""
 #~ "يسمح باختيار اللعب عبر الإنترنت، أو اللعب دون اتصال بالإنترنت، أو "
 #~ "الانضمام إلى لعبة أخرى."
-
-#~ msgid "SHOW RELAY SERVER GAMES ONLY"
-#~ msgstr "عرض ألعاب خادم التتابع فقط"
-
-#~ msgid "Relay server games have a higher chance of successful entry."
-#~ msgstr "تتمتع ألعاب خادم التتابع بفرصة أعلى للدخول الناجح."
 
 #~ msgid "Select a game lobby to create or join"
 #~ msgstr "حدد مجموعة ألعاب لإنشائها أو الانضمام إليها"

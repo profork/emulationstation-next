@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: batocera-es v42b(2025/03/01)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-03-01 12:31+0900\n"
+"PO-Revision-Date: 2025-03-19 06:02+0900\n"
 "Last-Translator: mikakunin\n"
 "Language-Team: mikakunin\n"
 "Language: ja\n"
@@ -551,6 +551,18 @@ msgstr "カスタム"
 
 msgid "CUSTOM RELAY SERVER"
 msgstr "カスタムリレーサーバー"
+
+msgid "AUTOMATICALLY CREATE LOBBY"
+msgstr "ロビーを自動的に作成"
+
+msgid "Automatically creates a Netplay lobby when starting a game."
+msgstr "ゲームを開始時に、自動的にネットプレイ ロビーを作成します"
+
+msgid "SHOW RELAY SERVER GAMES ONLY"
+msgstr "リレーサーバーゲームのみを表示"
+
+msgid "Relay server games have a higher chance of successful entry."
+msgstr "リレーサーバーゲームは参加に成功する可能性が高くなります"
 
 msgid "SHOW UNAVAILABLE GAMES"
 msgstr "利用不可ゲームを表示"
@@ -2549,9 +2561,6 @@ msgstr "参加したいゲームロビーを選択"
 msgid "FAILED"
 msgstr "失敗"
 
-msgid "NO GAMES FOUND"
-msgstr "ゲームが見つかりません"
-
 msgid "UNKNOWN ROM VERSION"
 msgstr "不明なROMバージョン"
 
@@ -2564,6 +2573,9 @@ msgstr "同じROM"
 msgid "UNAVAILABLE CORE"
 msgstr "利用できないコア"
 
+msgid "LAN GAMES"
+msgstr "LAN ゲーム"
+
 msgid "ONLINE GAMES"
 msgstr "オンライン ゲーム"
 
@@ -2573,8 +2585,8 @@ msgstr "参加可能なゲーム"
 msgid "UNAVAILABLE GAMES"
 msgstr "参加できないゲーム"
 
-msgid "LAN GAMES"
-msgstr "LAN ゲーム"
+msgid "NO GAMES FOUND"
+msgstr "ゲームが見つかりません"
 
 msgid "JOIN GAME"
 msgstr "ゲームに参加"
@@ -2654,7 +2666,7 @@ msgid "BEHAVIOR"
 msgstr "動作"
 
 msgid "RESTRICT HOTKEYS TO EXIT"
-msgstr "ホットキーでの終了を制限"
+msgstr "ホットキーの機能を制限(終了以外)"
 
 msgid "default"
 msgstr "標準"
@@ -3558,12 +3570,6 @@ msgstr ""
 
 #~ msgid "Allows choice of online, offline, or joining another game."
 #~ msgstr "オンライン、オフライン、別のゲームへの参加を選択できます"
-
-#~ msgid "SHOW RELAY SERVER GAMES ONLY"
-#~ msgstr "リレーサーバーゲームのみを表示"
-
-#~ msgid "Relay server games have a higher chance of successful entry."
-#~ msgstr "リレーサーバーゲームは参加に成功する可能性が高くなります"
 
 #~ msgid "Select a game lobby to create or join"
 #~ msgstr "作成または参加するゲーム ロビーを選択"
