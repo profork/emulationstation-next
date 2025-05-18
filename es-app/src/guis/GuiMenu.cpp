@@ -4770,7 +4770,8 @@ void GuiMenu::openNetworkSettings(bool selectWifiEnable, bool selectAdhocEnable)
 			s->addInputTextRow(_("WIFI KEY"), "wifi.key", true);
 		}
 
-		s->addWithLabel(_("LOCAL PLAY MODE"), enable_adhoc, selectAdhocEnable);
+		if (ApiSystem::getInstance()->isWifiAPModeSupported())
+			s->addWithLabel(_("LOCAL PLAY MODE"), enable_adhoc, selectAdhocEnable);
 	}
 
 	auto optionsAdhocID = std::make_shared<OptionListComponent<std::string> >(mWindow, _("LOCAL PLAY ID"), false);
