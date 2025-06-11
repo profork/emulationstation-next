@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-06 18:25+0300\n"
+"PO-Revision-Date: 2025-06-06 20:30+0300\n"
 "Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -137,10 +137,10 @@ msgid "enter path to box background"
 msgstr "kutu arkasının yolunu girin"
 
 msgid "Wheel"
-msgstr "Tekerlek"
+msgstr "Direksiyon"
 
 msgid "enter path to wheel"
-msgstr "tekerlek yolunu girin"
+msgstr "direksiyon yolunu girin"
 
 msgid "Mix"
 msgstr "Karışık"
@@ -507,6 +507,9 @@ msgstr "SİSTEM"
 msgid "VIDEO DRIVER"
 msgstr "VİDEO SÜRÜCÜSÜ"
 
+msgid "SEOUL"
+msgstr "SEUL"
+
 msgid "NETPLAY SETTINGS"
 msgstr "NETPLAY AYARLARI"
 
@@ -524,30 +527,6 @@ msgstr "SEÇENEKLER"
 
 msgid "PORT"
 msgstr "PORT"
-
-msgid "USE RELAY SERVER"
-msgstr "ARA SUNUCU KULLAN"
-
-msgid "NONE"
-msgstr "YOK"
-
-msgid "NEW YORK"
-msgstr "NEW YORK"
-
-msgid "MADRID"
-msgstr "MADRİD"
-
-msgid "MONTREAL"
-msgstr "MONTREAL"
-
-msgid "SAO PAULO"
-msgstr "SAO PAULO"
-
-msgid "CUSTOM"
-msgstr "ÖZEL"
-
-msgid "CUSTOM RELAY SERVER"
-msgstr "ÖZEL ARA SUNUCU"
 
 msgid "AUTOMATICALLY CREATE LOBBY"
 msgstr "OTOMATİK LOBİ OLUŞTUR"
@@ -575,6 +554,30 @@ msgstr "YENİ OYUNLARI AÇILIŞTA DİZİNLE"
 
 msgid "INDEX GAMES"
 msgstr "OYUNLARI DİZİNLE"
+
+msgid "USE RELAY SERVER"
+msgstr "ARA SUNUCU KULLAN"
+
+msgid "NONE"
+msgstr "YOK"
+
+msgid "NEW YORK"
+msgstr "NEW YORK"
+
+msgid "MADRID"
+msgstr "MADRİD"
+
+msgid "MONTREAL"
+msgstr "MONTREAL"
+
+msgid "SAO PAULO"
+msgstr "SAO PAULO"
+
+msgid "CUSTOM"
+msgstr "ÖZEL"
+
+msgid "CUSTOM RELAY SERVER"
+msgstr "ÖZEL ARA SUNUCU"
 
 msgid "INPUT"
 msgstr "GİRDİ"
@@ -689,7 +692,7 @@ msgid "BLUETOOTH DEVICE LIST"
 msgstr "BLUETOOTH CİHAZ LİSTESİ"
 
 msgid "REMOVE ALL"
-msgstr "TÜMÜNÜ SİL"
+msgstr "TÜMÜNÜ KALDIR"
 
 msgid "NO BLUETOOTH DEVICES FOUND"
 msgstr "BLUETOOTH CİHAZI BULUNAMADI"
@@ -1532,7 +1535,7 @@ msgid "on"
 msgstr "açık"
 
 msgid "OVERCLOCK"
-msgstr "OVERCLOCK"
+msgstr "HIZ AŞIMI"
 
 msgid "LED HARDWARE"
 msgstr "LED DONANIM"
@@ -1750,7 +1753,7 @@ msgid "AI GAME TRANSLATION"
 msgstr "YAPAY ZEKA OYUN ÇEVİRİSİ"
 
 msgid "ENABLE AI TRANSLATION SERVICE"
-msgstr "YAPAY ZEKA OYUN ÇEVİRİ SERVİSİNİ AÇ"
+msgstr "YAPAY ZEKA ÇEVİRİ SERVİSİNİ ETKİNLEŞTİR"
 
 msgid "TARGET LANGUAGE"
 msgstr "HEDEF DİL"
@@ -1863,8 +1866,9 @@ msgstr "DİREKSİYON SİMGESİNİ GÖSTER"
 msgid "SHOW TRACKBALL ICON"
 msgstr "TRACKBALL SİMGESİNİ GÖSTER"
 
+# SPINNER bir cihaz adı, çevirmeyin lütfen.
 msgid "SHOW SPINNER ICON"
-msgstr "ÇARK SİMGESİNİ GÖSTER"
+msgstr "SPINNER SİMGESİNİ GÖSTER"
 
 msgid "SHOW FILENAMES INSTEAD"
 msgstr "DOSYA İSİMLERİNİ GÖSTER"
@@ -2017,10 +2021,10 @@ msgid "VIEW USER MANUAL"
 msgstr "KULLANICI KILAVUZUNU GÖR"
 
 msgid "DISABLE PLANE MODE"
-msgstr "UÇAK MODU KAPALI"
+msgstr "UÇAK MODUNU KAPAT"
 
 msgid "ENABLE PLANE MODE"
-msgstr "UÇAK MODU AÇIK"
+msgstr "UÇAK MODUNU AÇ"
 
 msgid "RESTART SYSTEM"
 msgstr "SİSTEMİ YENİDEN BAŞLAT"
@@ -2217,11 +2221,11 @@ msgstr "KOLEKSİYONLAR"
 
 #, c-format
 msgid "REMOVE FROM %s"
-msgstr "%s BURADAN SİL"
+msgstr "%s BURADAN KALDIR"
 
 #, c-format
 msgid "ADD TO %s"
-msgstr "%s BURAYA EKLE"
+msgstr "%s BÖLÜMÜNE EKLE"
 
 msgid "FAVORITES"
 msgstr "FAVORİLER"
@@ -2533,7 +2537,7 @@ msgid "refresh"
 msgstr "yenile"
 
 msgid "NO MISSING BIOS"
-msgstr "EKSİK BIOS YOK"
+msgstr "EKSİK BİOS YOK"
 
 msgid "ZOOM OUT"
 msgstr "UZAKLAŞ"
@@ -2561,7 +2565,7 @@ msgstr ""
 "OYUN LİSTESİNE GÖRE BU DOSYALARIN BİR KOPYASINI KULLANMAK İSTER MİSİNİZ?"
 
 msgid "CONNECT TO NETPLAY"
-msgstr "NETPLAY'E BAĞLAN"
+msgstr "NETPLAY BAĞLAN"
 
 msgid "Select a game lobby to join"
 msgstr "Katılmak için oyun lobisi seç"
@@ -2667,7 +2671,7 @@ msgid "SHOW CONTROLLER BATTERY LEVEL"
 msgstr "KONTROLCÜ PİL SEVİYESİNİ GÖSTER"
 
 msgid "DRAW GUN CROSSHAIR"
-msgstr "SİLAH NİŞANINI ÇİZ"
+msgstr "SİLAH NİŞANGAHINI ÇİZ"
 
 msgid "BEHAVIOR"
 msgstr "DAVRANIŞ"
@@ -2679,7 +2683,7 @@ msgid "default"
 msgstr "varsayılan"
 
 msgid "BORDER SIZE"
-msgstr "ÇERÇEVE BOYUTU"
+msgstr "KENAR BOYUTU"
 
 msgid "THIN"
 msgstr "İNCE"
@@ -2691,7 +2695,7 @@ msgid "BIG"
 msgstr "BÜYÜK"
 
 msgid "BORDER MODE"
-msgstr "ÇERÇEVE MODU"
+msgstr "KENAR MODU"
 
 msgid "NORMAL"
 msgstr "NORMAL"
@@ -2703,7 +2707,7 @@ msgid "HIDDEN"
 msgstr "GİZLİ"
 
 msgid "BORDER COLOR"
-msgstr "ÇERÇEVE RENGİ"
+msgstr "KENAR RENGİ"
 
 msgid "WHITE"
 msgstr "BEYAZ"
@@ -3081,11 +3085,13 @@ msgstr "HAFİF SİLAH"
 msgid "STEERING WHEEL"
 msgstr "DİREKSİYON"
 
+# Bu donanımı adlandırmayın lütfen, olduğu gibi kalması gerekiyor.
 msgid "TRACKBALL"
 msgstr "TRACKBALL"
 
+# SPINNER bir cihaz adı, çevirmeyin lütfen.
 msgid "SPINNER"
-msgstr "ÇARK"
+msgstr "SPINNER"
 
 msgid "HAVING MEDIAS"
 msgstr "MEDYALARINIZ"
@@ -3130,13 +3136,13 @@ msgid "EMULATOR IS MISSING"
 msgstr "EMÜLATÖR BULUNAMADI"
 
 msgid "CORE IS MISSING"
-msgstr "ÇEKİRDEK BULUNAMADI"
+msgstr "ÇEKİRDEK EKSİK"
 
 msgid "UKNOWN ERROR"
 msgstr "BİLİNMEYEN HATA"
 
 msgid "Interlaced"
-msgstr "Taramalı"
+msgstr "İç içe geçmiş"
 
 msgid "all games"
 msgstr "tüm oyunlar"
@@ -3174,8 +3180,9 @@ msgstr "direksiyon oyunları"
 msgid "trackball games"
 msgstr "trackball oyunları"
 
+# SPINNER bir cihaz adı, çevirmeyin lütfen.
 msgid "spinner games"
-msgstr "çark oyunları"
+msgstr "spiner oyunları"
 
 msgid "collections"
 msgstr "koleksiyonlar"

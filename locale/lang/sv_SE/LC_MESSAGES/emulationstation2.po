@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-04 15:13+0200\n"
+"PO-Revision-Date: 2025-05-09 12:45+0200\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: sv\n"
 "Language: sv_SE\n"
@@ -507,6 +507,9 @@ msgstr "SYSTEM"
 msgid "VIDEO DRIVER"
 msgstr "GRAFIKDRIVRUTIN"
 
+msgid "SEOUL"
+msgstr ""
+
 msgid "NETPLAY SETTINGS"
 msgstr "INSTÄLLNINGAR FÖR NETPLAY"
 
@@ -524,30 +527,6 @@ msgstr "ALTERNATIV"
 
 msgid "PORT"
 msgstr "PORT"
-
-msgid "USE RELAY SERVER"
-msgstr "ANVÄND RELÄSERVER"
-
-msgid "NONE"
-msgstr "INGEN"
-
-msgid "NEW YORK"
-msgstr "NEW YORK"
-
-msgid "MADRID"
-msgstr "MADRID"
-
-msgid "MONTREAL"
-msgstr "MONTREAL"
-
-msgid "SAO PAULO"
-msgstr "SAO PAULO"
-
-msgid "CUSTOM"
-msgstr "ANPASSAD"
-
-msgid "CUSTOM RELAY SERVER"
-msgstr "ANPASSAD RELÄSERVER"
 
 msgid "AUTOMATICALLY CREATE LOBBY"
 msgstr "SKAPA LOBBY AUTOMATISKT"
@@ -575,6 +554,30 @@ msgstr "INDEXERA NYA SPEL VID UPPSTART"
 
 msgid "INDEX GAMES"
 msgstr "INDEXERA SPEL"
+
+msgid "USE RELAY SERVER"
+msgstr "ANVÄND RELÄSERVER"
+
+msgid "NONE"
+msgstr "INGEN"
+
+msgid "NEW YORK"
+msgstr "NEW YORK"
+
+msgid "MADRID"
+msgstr "MADRID"
+
+msgid "MONTREAL"
+msgstr "MONTREAL"
+
+msgid "SAO PAULO"
+msgstr "SAO PAULO"
+
+msgid "CUSTOM"
+msgstr "ANPASSAD"
+
+msgid "CUSTOM RELAY SERVER"
+msgstr "ANPASSAD RELÄSERVER"
 
 msgid "INPUT"
 msgstr "INPUT"
@@ -1217,7 +1220,7 @@ msgid "THEME FONT SCALE"
 msgstr "TYPSNITTSSKALA FÖR TEMA"
 
 msgid "FULL SCREEN MENUS"
-msgstr "FULLSKÄRMSMENYER"
+msgstr "HELSKÄRMSMENYER"
 
 msgid "FORCE SMALL SCREEN THEMING"
 msgstr "TVINGA TEMA FÖR LITEN SKÄRM"
@@ -2284,7 +2287,7 @@ msgid "LOGO SOURCE"
 msgstr "LOGOTYPKÄLLA"
 
 msgid "HD WHEEL"
-msgstr ""
+msgstr "HD WHEEL"
 
 msgid "WHEEL"
 msgstr "HJUL"
