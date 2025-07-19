@@ -786,6 +786,15 @@ msgstr "لا توجد تحديثات"
 msgid "SCRAPER"
 msgstr "الجالِب"
 
+msgid "SCRAPE"
+msgstr "جلب"
+
+msgid "ACCOUNTS"
+msgstr "حسابات"
+
+msgid "go back"
+msgstr "الرجوع"
+
 msgid "SCRAPING DATABASE"
 msgstr "جلب قاعدة البيانات"
 
@@ -794,9 +803,6 @@ msgstr "المصدر"
 
 msgid "SCRAPE FROM"
 msgstr "جلب مِن"
-
-msgid "SCRAPER SETTINGS"
-msgstr "إعدادات الجالِب"
 
 msgid "FILTERS"
 msgstr "تعديل فرز مجموعة ديناميكية"
@@ -843,8 +849,101 @@ msgstr "جلب الآن"
 msgid "START"
 msgstr "ابدأ"
 
-msgid "go back"
-msgstr "الرجوع"
+msgid "IMAGE SOURCE"
+msgstr "مصدر الصورة"
+
+msgid "SCREENSHOT"
+msgstr "لقطة شاشة"
+
+msgid "TITLE SCREENSHOT"
+msgstr "عنوان لقطة شاشة"
+
+msgid "MIX V1"
+msgstr "مكس 1"
+
+msgid "MIX V2"
+msgstr "مكس 2"
+
+msgid "BOX 2D"
+msgstr "صندوق ثنائي البعد"
+
+msgid "BOX 3D"
+msgstr "صندوق ثلاثي البعد"
+
+msgid "FAN ART"
+msgstr "غلاف الجماهير"
+
+msgid "BOX SOURCE"
+msgstr "مصدر الصندوق"
+
+msgid "LOGO SOURCE"
+msgstr "مصدر الشعار"
+
+msgid "HD WHEEL"
+msgstr ""
+
+msgid "WHEEL"
+msgstr "عجلة"
+
+msgid "MARQUEE"
+msgstr "شاشة أسمية"
+
+msgid "PREFERED REGION"
+msgstr "المنطقة المفضلة"
+
+msgid "AUTO"
+msgstr "تلقائي"
+
+msgid "OVERWRITE NAMES"
+msgstr "استبدال الأسماء"
+
+msgid "OVERWRITE DESCRIPTIONS"
+msgstr "الكتابة فوق الأوصاف"
+
+msgid "OVERWRITE MEDIAS"
+msgstr "الكتابة فوق الوسائط"
+
+msgid "SCRAPE FOR"
+msgstr "جلب لـِ"
+
+msgid "SHORT NAME"
+msgstr "الاسم القصير"
+
+msgid "COMMUNITY RATING"
+msgstr "تقييم الجماهير"
+
+msgid "VIDEO"
+msgstr "فيديو"
+
+msgid "FANART"
+msgstr "تصاميم الهواة"
+
+msgid "BEZEL (16:9)"
+msgstr "الإطار المحيط (16:9)"
+
+msgid "BOX BACKSIDE"
+msgstr "الغلاف من الخلف"
+
+msgid "MAP"
+msgstr "خريطة"
+
+msgid "MANUAL"
+msgstr "الكتيب"
+
+msgid "PADTOKEY SETTINGS"
+msgstr "إعدادات وحدة التحكم إلى لوحة المفاتيح"
+
+msgid "SCREENSCRAPER"
+msgstr ""
+
+msgid "IGDB"
+msgstr ""
+
+msgid "CLIENT ID"
+msgstr ""
+
+msgid "CLIENT SECRET"
+msgstr ""
 
 msgid ""
 "WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
@@ -1064,9 +1163,6 @@ msgstr "الوظيفة معطلة حينما يكون الجالِب شغّال�
 msgid "CHOOSE"
 msgstr "اختار"
 
-msgid "THE USER INTERFACE MODE IS NOW UNLOCKED"
-msgstr "تم فك نمط واجهة المستخدم"
-
 msgid "ENTER THE CODE NOW TO UNLOCK"
 msgstr "أدخل الكود الآن لكي تكسب"
 
@@ -1093,9 +1189,6 @@ msgstr "خادم دي ام دي"
 
 msgid "FORMAT"
 msgstr "تهيئة (مسح)"
-
-msgid "AUTO"
-msgstr "تلقائي"
 
 msgid "dmd matrix size"
 msgstr "حجم مصفوفة دي ام دي"
@@ -1645,9 +1738,6 @@ msgstr "الإعدادات الحالية"
 msgid "UPDATE GAMELISTS"
 msgstr "تحديث قائمة الألعاب"
 
-msgid "ACCOUNTS"
-msgstr "حسابات"
-
 msgid "BIOS SETTINGS"
 msgstr "إعدادات النظام الأساسي والإخراج"
 
@@ -1982,6 +2072,12 @@ msgstr "تشغيل موسيقى السمة"
 msgid "LOWER MUSIC WHEN PLAYING VIDEO"
 msgstr "قم بخفض صوت الموسيقى عند تشغيل الفيديو"
 
+msgid "PLAY ONLY SONGS FROM YOUR FAVORITES PLAYLIST"
+msgstr "تشغيل أغنيات المفضلات فقط"
+
+msgid "SELECTION OF FAVORITE SONGS"
+msgstr "مختارات الأغنيات المفضلة"
+
 msgid "SOUNDS"
 msgstr "أصوات"
 
@@ -2029,6 +2125,12 @@ msgstr "الموسيقى التالية"
 
 msgid "NOW PLAYING"
 msgstr "تشتغل حاليا"
+
+msgid "REMOVE CURRENT SONG FROM THE FAVORITES PLAYLIST"
+msgstr "أزل الأغنية الحالية من قائمة المفضلات"
+
+msgid "SAVE CURRENT SONG TO THE FAVORITES PLAYLIST"
+msgstr "احفظ الأغنية الحالية في قائمة المفضلات"
 
 msgid "LAUNCH SCREENSAVER"
 msgstr "بدء شاشة التوقف"
@@ -2250,9 +2352,6 @@ msgstr "إضافة إلى المجموعة المخصصة..."
 msgid "DELETE COLLECTION"
 msgstr "حذف المجموعة"
 
-msgid "SCRAPE"
-msgstr "جلب"
-
 msgid "ADVANCED GAME OPTIONS"
 msgstr "خيارات اللعبة المتقدمة"
 
@@ -2276,90 +2375,6 @@ msgstr "اقتران جهاز بلوتوث"
 
 msgid "PAIR"
 msgstr "اقتران"
-
-msgid "IMAGE SOURCE"
-msgstr "مصدر الصورة"
-
-msgid "SCREENSHOT"
-msgstr "لقطة شاشة"
-
-msgid "TITLE SCREENSHOT"
-msgstr "عنوان لقطة شاشة"
-
-msgid "MIX V1"
-msgstr "مكس 1"
-
-msgid "MIX V2"
-msgstr "مكس 2"
-
-msgid "BOX 2D"
-msgstr "صندوق ثنائي البعد"
-
-msgid "BOX 3D"
-msgstr "صندوق ثلاثي البعد"
-
-msgid "FAN ART"
-msgstr "غلاف الجماهير"
-
-msgid "BOX SOURCE"
-msgstr "مصدر الصندوق"
-
-msgid "LOGO SOURCE"
-msgstr "مصدر الشعار"
-
-msgid "HD WHEEL"
-msgstr ""
-
-msgid "WHEEL"
-msgstr "عجلة"
-
-msgid "MARQUEE"
-msgstr "شاشة أسمية"
-
-msgid "PREFERED REGION"
-msgstr "المنطقة المفضلة"
-
-msgid "OVERWRITE NAMES"
-msgstr "استبدال الأسماء"
-
-msgid "OVERWRITE DESCRIPTIONS"
-msgstr "الكتابة فوق الأوصاف"
-
-msgid "OVERWRITE MEDIAS"
-msgstr "الكتابة فوق الوسائط"
-
-msgid "SCRAPE FOR"
-msgstr "جلب لـِ"
-
-msgid "SHORT NAME"
-msgstr "الاسم القصير"
-
-msgid "COMMUNITY RATING"
-msgstr "تقييم الجماهير"
-
-msgid "VIDEO"
-msgstr "فيديو"
-
-msgid "FANART"
-msgstr "تصاميم الهواة"
-
-msgid "BEZEL (16:9)"
-msgstr "الإطار المحيط (16:9)"
-
-msgid "BOX BACKSIDE"
-msgstr "الغلاف من الخلف"
-
-msgid "MAP"
-msgstr "خريطة"
-
-msgid "MANUAL"
-msgstr "الكتيب"
-
-msgid "PADTOKEY SETTINGS"
-msgstr "إعدادات وحدة التحكم إلى لوحة المفاتيح"
-
-msgid "ACCOUNT"
-msgstr "حساب"
 
 msgid "NO DEVICE FOUND"
 msgstr "لم يُعثر على أي جهاز"
@@ -2577,6 +2592,9 @@ msgid ""
 msgstr ""
 "بعض الملفات التي ربطتها صارت خارج مسار قائمة الألعاب.\n"
 "أترغب في استعمال نسخة من هذه الملفات مرتبطة بقائمة الألعاب ؟"
+
+msgid "FAVORITE SONGS"
+msgstr "الأغنيات المفضلة"
 
 msgid "CONNECT TO NETPLAY"
 msgstr "الإتصال بـ لعبة نت"
@@ -3128,6 +3146,9 @@ msgstr "الوسائط المفقودة"
 msgid "DO YOU WANT TO SWITCH THE SCREEN ?"
 msgstr "أترغب في تبديل الشاشة ؟"
 
+msgid "INVALID CREDENTIALS"
+msgstr ""
+
 msgid "SCRAPING"
 msgstr "جلب"
 
@@ -3646,6 +3667,15 @@ msgid ""
 msgstr ""
 "معايرة المسدس\n"
 "أطلق النار على الأهداف للمعايرة"
+
+#~ msgid "SCRAPER SETTINGS"
+#~ msgstr "إعدادات الجالِب"
+
+#~ msgid "ACCOUNT"
+#~ msgstr "حساب"
+
+#~ msgid "THE USER INTERFACE MODE IS NOW UNLOCKED"
+#~ msgstr "تم فك نمط واجهة المستخدم"
 
 #~ msgid "SHOW NETPLAY OPTIONS WHEN LAUNCHING GAME"
 #~ msgstr "إظهار خيارات نت بلاي عند تشغيل اللعبة"

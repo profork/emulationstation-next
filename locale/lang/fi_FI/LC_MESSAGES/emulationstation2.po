@@ -755,6 +755,15 @@ msgstr "PÄIVITYKSIÄ EI SAATAVILLA"
 msgid "SCRAPER"
 msgstr "TIEDONETSIJÄ"
 
+msgid "SCRAPE"
+msgstr "ETSI TIETOA"
+
+msgid "ACCOUNTS"
+msgstr ""
+
+msgid "go back"
+msgstr "mene takaisin"
+
 msgid "SCRAPING DATABASE"
 msgstr "TIEDONETSIJÄN TIETOKANTA"
 
@@ -763,9 +772,6 @@ msgstr "LÄHDE"
 
 msgid "SCRAPE FROM"
 msgstr "ETSI TIETOA"
-
-msgid "SCRAPER SETTINGS"
-msgstr "TIEDONETSIJÄN ASETUKSET"
 
 msgid "FILTERS"
 msgstr "SUODATTIMET"
@@ -812,8 +818,101 @@ msgstr "ETSI NYT"
 msgid "START"
 msgstr "KÄYNNISTÄ"
 
-msgid "go back"
-msgstr "mene takaisin"
+msgid "IMAGE SOURCE"
+msgstr "KUVAN LÄHDE"
+
+msgid "SCREENSHOT"
+msgstr "KUVAKAAPPAUS"
+
+msgid "TITLE SCREENSHOT"
+msgstr "OTSIKKOKUVA"
+
+msgid "MIX V1"
+msgstr ""
+
+msgid "MIX V2"
+msgstr ""
+
+msgid "BOX 2D"
+msgstr "KOTELO 2D"
+
+msgid "BOX 3D"
+msgstr "KOTELO 3D"
+
+msgid "FAN ART"
+msgstr "FANIKUVITUS"
+
+msgid "BOX SOURCE"
+msgstr ""
+
+msgid "LOGO SOURCE"
+msgstr ""
+
+msgid "HD WHEEL"
+msgstr ""
+
+msgid "WHEEL"
+msgstr ""
+
+msgid "MARQUEE"
+msgstr ""
+
+msgid "PREFERED REGION"
+msgstr ""
+
+msgid "AUTO"
+msgstr "AUTOMAATTINEN"
+
+msgid "OVERWRITE NAMES"
+msgstr ""
+
+msgid "OVERWRITE DESCRIPTIONS"
+msgstr ""
+
+msgid "OVERWRITE MEDIAS"
+msgstr ""
+
+msgid "SCRAPE FOR"
+msgstr ""
+
+msgid "SHORT NAME"
+msgstr "LYHYT NIMI"
+
+msgid "COMMUNITY RATING"
+msgstr "YHTEISÖN ARVOSANA"
+
+msgid "VIDEO"
+msgstr "VIDEO"
+
+msgid "FANART"
+msgstr "FANITAIDE"
+
+msgid "BEZEL (16:9)"
+msgstr "KEHYS (16:9)"
+
+msgid "BOX BACKSIDE"
+msgstr "KOTELON TAKAKANSI"
+
+msgid "MAP"
+msgstr "KARTTA"
+
+msgid "MANUAL"
+msgstr "OHJEKIRJA"
+
+msgid "PADTOKEY SETTINGS"
+msgstr "OHJEIMESTA-NÄPPÄIMISTÖÖN ASETUKSET"
+
+msgid "SCREENSCRAPER"
+msgstr ""
+
+msgid "IGDB"
+msgstr ""
+
+msgid "CLIENT ID"
+msgstr ""
+
+msgid "CLIENT SECRET"
+msgstr ""
 
 msgid ""
 "WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
@@ -1030,9 +1129,6 @@ msgstr "TÄMÄ TOIMINTO ON POIS KÄYTÖSTÄ, KUN TIEDON ETSINTÄ ON KÄYNNISSÄ"
 msgid "CHOOSE"
 msgstr "VALITSE"
 
-msgid "THE USER INTERFACE MODE IS NOW UNLOCKED"
-msgstr "KÄYTTÖLIITTYMÄTILA ON AVATTU"
-
 msgid "ENTER THE CODE NOW TO UNLOCK"
 msgstr "AVATAKSESI, SYÖTÄ KOODI NYT"
 
@@ -1059,9 +1155,6 @@ msgstr ""
 
 msgid "FORMAT"
 msgstr ""
-
-msgid "AUTO"
-msgstr "AUTOMAATTINEN"
 
 msgid "dmd matrix size"
 msgstr ""
@@ -1614,9 +1707,6 @@ msgstr "Nykyinen asetus"
 msgid "UPDATE GAMELISTS"
 msgstr "PÄIVITÄ PELILISTA"
 
-msgid "ACCOUNTS"
-msgstr ""
-
 msgid "BIOS SETTINGS"
 msgstr ""
 
@@ -1955,6 +2045,12 @@ msgstr "SOITA JÄRJESTELMÄN KOHTAISTA MUSIIKKIA"
 msgid "LOWER MUSIC WHEN PLAYING VIDEO"
 msgstr "HILJENNÄ MUSIIKKIA KUN VIDEOTA TOISTETAAN"
 
+msgid "PLAY ONLY SONGS FROM YOUR FAVORITES PLAYLIST"
+msgstr "TOISTA VAIN KAPPALEITA SUOSIKKISOITTOLISTALTASI"
+
+msgid "SELECTION OF FAVORITE SONGS"
+msgstr "SUOSIKKIKAPPALEIDEN VALINTA"
+
 msgid "SOUNDS"
 msgstr ""
 
@@ -2002,6 +2098,12 @@ msgstr "HYPPÄÄ SEURAAVAAN KAPPALEESEEN"
 
 msgid "NOW PLAYING"
 msgstr "NYT SOITETAAN"
+
+msgid "REMOVE CURRENT SONG FROM THE FAVORITES PLAYLIST"
+msgstr "POISTA NYKYINEN KAPPALE SUOSIKKISOITTOLISTASTA"
+
+msgid "SAVE CURRENT SONG TO THE FAVORITES PLAYLIST"
+msgstr "TALLENNA NYKYINEN KAPPALE SUOSIKKISOITTOLISTAAN"
 
 msgid "LAUNCH SCREENSAVER"
 msgstr "KÄYNNISTÄ NÄYTÖNSÄÄSTÄJÄ"
@@ -2225,9 +2327,6 @@ msgstr "LISÄÄ MUKAUTETTUUN KOKOELMAAN..."
 msgid "DELETE COLLECTION"
 msgstr "POISTA KOKOELMA"
 
-msgid "SCRAPE"
-msgstr "ETSI TIETOA"
-
 msgid "ADVANCED GAME OPTIONS"
 msgstr "EDISTYNEET PELIASETUKSET"
 
@@ -2251,90 +2350,6 @@ msgstr "PARITA BLUETOOTH-LAITE"
 
 msgid "PAIR"
 msgstr "PARITA"
-
-msgid "IMAGE SOURCE"
-msgstr "KUVAN LÄHDE"
-
-msgid "SCREENSHOT"
-msgstr "KUVAKAAPPAUS"
-
-msgid "TITLE SCREENSHOT"
-msgstr "OTSIKKOKUVA"
-
-msgid "MIX V1"
-msgstr ""
-
-msgid "MIX V2"
-msgstr ""
-
-msgid "BOX 2D"
-msgstr "KOTELO 2D"
-
-msgid "BOX 3D"
-msgstr "KOTELO 3D"
-
-msgid "FAN ART"
-msgstr "FANIKUVITUS"
-
-msgid "BOX SOURCE"
-msgstr ""
-
-msgid "LOGO SOURCE"
-msgstr ""
-
-msgid "HD WHEEL"
-msgstr ""
-
-msgid "WHEEL"
-msgstr ""
-
-msgid "MARQUEE"
-msgstr ""
-
-msgid "PREFERED REGION"
-msgstr ""
-
-msgid "OVERWRITE NAMES"
-msgstr ""
-
-msgid "OVERWRITE DESCRIPTIONS"
-msgstr ""
-
-msgid "OVERWRITE MEDIAS"
-msgstr ""
-
-msgid "SCRAPE FOR"
-msgstr ""
-
-msgid "SHORT NAME"
-msgstr "LYHYT NIMI"
-
-msgid "COMMUNITY RATING"
-msgstr "YHTEISÖN ARVOSANA"
-
-msgid "VIDEO"
-msgstr "VIDEO"
-
-msgid "FANART"
-msgstr "FANITAIDE"
-
-msgid "BEZEL (16:9)"
-msgstr "KEHYS (16:9)"
-
-msgid "BOX BACKSIDE"
-msgstr "KOTELON TAKAKANSI"
-
-msgid "MAP"
-msgstr "KARTTA"
-
-msgid "MANUAL"
-msgstr "OHJEKIRJA"
-
-msgid "PADTOKEY SETTINGS"
-msgstr "OHJEIMESTA-NÄPPÄIMISTÖÖN ASETUKSET"
-
-msgid "ACCOUNT"
-msgstr ""
 
 msgid "NO DEVICE FOUND"
 msgstr "LAITETTA EI LÖYTYNYT"
@@ -2553,6 +2568,9 @@ msgid ""
 msgstr ""
 "JOTKIN LINKITTÄMÄSI TIEDOSTOT SIJAITSEVAT PELILISTAN POLUN ULKOPUOLELLA.\n"
 "HALUATKO KÄYTTÄÄ NÄIDEN TIEDOSTOJEN KOPIOITA SUHTEESSA PELILISTAAN?"
+
+msgid "FAVORITE SONGS"
+msgstr "SUOSIKKIKAPPALEET"
 
 msgid "CONNECT TO NETPLAY"
 msgstr "YHDISTÄ VERKKOPELIIN"
@@ -3086,6 +3104,9 @@ msgstr ""
 msgid "DO YOU WANT TO SWITCH THE SCREEN ?"
 msgstr ""
 
+msgid "INVALID CREDENTIALS"
+msgstr ""
+
 msgid "SCRAPING"
 msgstr ""
 
@@ -3568,6 +3589,12 @@ msgid ""
 "CALIBRATING GUN\n"
 "Fire on targets to calibrate"
 msgstr ""
+
+#~ msgid "SCRAPER SETTINGS"
+#~ msgstr "TIEDONETSIJÄN ASETUKSET"
+
+#~ msgid "THE USER INTERFACE MODE IS NOW UNLOCKED"
+#~ msgstr "KÄYTTÖLIITTYMÄTILA ON AVATTU"
 
 #~ msgid "FORGET A BLUETOOTH DEVICE"
 #~ msgstr "UNOHDA BLUETOOTH-LAITE"

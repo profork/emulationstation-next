@@ -752,6 +752,15 @@ msgstr "TIDAK ADA PEMBARUAN YANG TERSEDIA"
 msgid "SCRAPER"
 msgstr "SCRAPER"
 
+msgid "SCRAPE"
+msgstr "SCRAPE"
+
+msgid "ACCOUNTS"
+msgstr "AKUN"
+
+msgid "go back"
+msgstr "kembali"
+
 msgid "SCRAPING DATABASE"
 msgstr "DATABASE SCRAPING"
 
@@ -760,9 +769,6 @@ msgstr "SUMBER"
 
 msgid "SCRAPE FROM"
 msgstr "SCRAPE DARI"
-
-msgid "SCRAPER SETTINGS"
-msgstr "PENGATURAN SCRAPER"
 
 msgid "FILTERS"
 msgstr "FILTER"
@@ -809,8 +815,101 @@ msgstr "HIMPUN SEKARANG"
 msgid "START"
 msgstr "MULAI"
 
-msgid "go back"
-msgstr "kembali"
+msgid "IMAGE SOURCE"
+msgstr "SUMBER GAMBAR"
+
+msgid "SCREENSHOT"
+msgstr "TANGKAPAN LAYAR"
+
+msgid "TITLE SCREENSHOT"
+msgstr "JUDUL TANGKAPAN LAYAR"
+
+msgid "MIX V1"
+msgstr "MIX V1"
+
+msgid "MIX V2"
+msgstr "MIX V2"
+
+msgid "BOX 2D"
+msgstr "BOX 2D"
+
+msgid "BOX 3D"
+msgstr "BOX 3D"
+
+msgid "FAN ART"
+msgstr "KARYA SENI"
+
+msgid "BOX SOURCE"
+msgstr "SUMBER BOX"
+
+msgid "LOGO SOURCE"
+msgstr "SUMBER LOGO"
+
+msgid "HD WHEEL"
+msgstr ""
+
+msgid "WHEEL"
+msgstr "WHEEL"
+
+msgid "MARQUEE"
+msgstr "MARQUEE"
+
+msgid "PREFERED REGION"
+msgstr "WILAYAH PILIHAN"
+
+msgid "AUTO"
+msgstr "OTOMATIS"
+
+msgid "OVERWRITE NAMES"
+msgstr "TIMPA NAMA"
+
+msgid "OVERWRITE DESCRIPTIONS"
+msgstr "TIMPA DESKRIPSI"
+
+msgid "OVERWRITE MEDIAS"
+msgstr "TIMPA MEDIA"
+
+msgid "SCRAPE FOR"
+msgstr "SCRAPE UNTUK"
+
+msgid "SHORT NAME"
+msgstr "URUTKAN NAMA"
+
+msgid "COMMUNITY RATING"
+msgstr "PERINGKAT KOMUNITAS"
+
+msgid "VIDEO"
+msgstr "VIDEO"
+
+msgid "FANART"
+msgstr "SENI"
+
+msgid "BEZEL (16:9)"
+msgstr "RESOLUSI (16:9)"
+
+msgid "BOX BACKSIDE"
+msgstr "BAGIAN BELAKANG BOX"
+
+msgid "MAP"
+msgstr "PETA"
+
+msgid "MANUAL"
+msgstr "PANDUAN"
+
+msgid "PADTOKEY SETTINGS"
+msgstr "PENGATURAN PADTOKEY"
+
+msgid "SCREENSCRAPER"
+msgstr ""
+
+msgid "IGDB"
+msgstr ""
+
+msgid "CLIENT ID"
+msgstr ""
+
+msgid "CLIENT SECRET"
+msgstr ""
 
 msgid ""
 "WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
@@ -1030,9 +1129,6 @@ msgstr "FUNGSI INI DINONAKTIFKAN SAAT SCRAPER BERJALAN"
 msgid "CHOOSE"
 msgstr "PILIH"
 
-msgid "THE USER INTERFACE MODE IS NOW UNLOCKED"
-msgstr "MODE ANTARMUKA PENGGUNA SEKARANG TERBUKA"
-
 msgid "ENTER THE CODE NOW TO UNLOCK"
 msgstr "MASUKKAN KODE UNTUK MEMBUKA"
 
@@ -1059,9 +1155,6 @@ msgstr "server dmd"
 
 msgid "FORMAT"
 msgstr "FORMAT"
-
-msgid "AUTO"
-msgstr "OTOMATIS"
 
 msgid "dmd matrix size"
 msgstr "ukuran matrix dmd"
@@ -1622,9 +1715,6 @@ msgstr "Pengaturan saat ini"
 msgid "UPDATE GAMELISTS"
 msgstr "PERBARUI LIST GAME"
 
-msgid "ACCOUNTS"
-msgstr "AKUN"
-
 msgid "BIOS SETTINGS"
 msgstr "PENGATURAN BIOS"
 
@@ -1960,6 +2050,12 @@ msgstr "MAINKAN MUSIK KHUSUS SISTEM"
 msgid "LOWER MUSIC WHEN PLAYING VIDEO"
 msgstr "MUSIK LEBIH RENDAH SAAT MEMUTAR VIDEO"
 
+msgid "PLAY ONLY SONGS FROM YOUR FAVORITES PLAYLIST"
+msgstr "PUTAR HANYA LAGU DARI DAFTAR PUTAR FAVORIT ANDA"
+
+msgid "SELECTION OF FAVORITE SONGS"
+msgstr "PILIHAN LAGU FAVORIT"
+
 msgid "SOUNDS"
 msgstr "SUARA"
 
@@ -2007,6 +2103,12 @@ msgstr "SKIP KE LAGU BERIKUTNYA"
 
 msgid "NOW PLAYING"
 msgstr "SEDANG DIMAINKAN"
+
+msgid "REMOVE CURRENT SONG FROM THE FAVORITES PLAYLIST"
+msgstr "HAPUS LAGU SAAT INI DARI DAFTAR PUTAR FAVORIT"
+
+msgid "SAVE CURRENT SONG TO THE FAVORITES PLAYLIST"
+msgstr "SIMPAN LAGU SAAT INI KE DAFTAR PUTAR FAVORIT"
 
 msgid "LAUNCH SCREENSAVER"
 msgstr "LUNCURKAN SCREENSAVER"
@@ -2228,9 +2330,6 @@ msgstr "TAMBAHKAN KE KOLEKSI KUSTOM..."
 msgid "DELETE COLLECTION"
 msgstr "HAPUS KOLEKSI"
 
-msgid "SCRAPE"
-msgstr "SCRAPE"
-
 msgid "ADVANCED GAME OPTIONS"
 msgstr "OPSI GAME LANJUTAN"
 
@@ -2254,90 +2353,6 @@ msgstr "PASANGKAN PERANGKAT BLUETOOTH"
 
 msgid "PAIR"
 msgstr "PASANGKAN"
-
-msgid "IMAGE SOURCE"
-msgstr "SUMBER GAMBAR"
-
-msgid "SCREENSHOT"
-msgstr "TANGKAPAN LAYAR"
-
-msgid "TITLE SCREENSHOT"
-msgstr "JUDUL TANGKAPAN LAYAR"
-
-msgid "MIX V1"
-msgstr "MIX V1"
-
-msgid "MIX V2"
-msgstr "MIX V2"
-
-msgid "BOX 2D"
-msgstr "BOX 2D"
-
-msgid "BOX 3D"
-msgstr "BOX 3D"
-
-msgid "FAN ART"
-msgstr "KARYA SENI"
-
-msgid "BOX SOURCE"
-msgstr "SUMBER BOX"
-
-msgid "LOGO SOURCE"
-msgstr "SUMBER LOGO"
-
-msgid "HD WHEEL"
-msgstr ""
-
-msgid "WHEEL"
-msgstr "WHEEL"
-
-msgid "MARQUEE"
-msgstr "MARQUEE"
-
-msgid "PREFERED REGION"
-msgstr "WILAYAH PILIHAN"
-
-msgid "OVERWRITE NAMES"
-msgstr "TIMPA NAMA"
-
-msgid "OVERWRITE DESCRIPTIONS"
-msgstr "TIMPA DESKRIPSI"
-
-msgid "OVERWRITE MEDIAS"
-msgstr "TIMPA MEDIA"
-
-msgid "SCRAPE FOR"
-msgstr "SCRAPE UNTUK"
-
-msgid "SHORT NAME"
-msgstr "URUTKAN NAMA"
-
-msgid "COMMUNITY RATING"
-msgstr "PERINGKAT KOMUNITAS"
-
-msgid "VIDEO"
-msgstr "VIDEO"
-
-msgid "FANART"
-msgstr "SENI"
-
-msgid "BEZEL (16:9)"
-msgstr "RESOLUSI (16:9)"
-
-msgid "BOX BACKSIDE"
-msgstr "BAGIAN BELAKANG BOX"
-
-msgid "MAP"
-msgstr "PETA"
-
-msgid "MANUAL"
-msgstr "PANDUAN"
-
-msgid "PADTOKEY SETTINGS"
-msgstr "PENGATURAN PADTOKEY"
-
-msgid "ACCOUNT"
-msgstr "AKUN"
 
 msgid "NO DEVICE FOUND"
 msgstr "PERANGKAT TIDAK DITEMUKAN"
@@ -2555,6 +2570,9 @@ msgid ""
 msgstr ""
 "BEBERAPA FILE YANG ANDA TAUTkAN BERADA DI LUAR JALUR LISTGAME.\n"
 "INGIN MEMAKAI SALINAN FILE RELATIVE INI KE GAMELIST ?"
+
+msgid "FAVORITE SONGS"
+msgstr "LAGU FAVORIT"
 
 msgid "CONNECT TO NETPLAY"
 msgstr "HUBUNGKAN KE NETPLAY"
@@ -3088,6 +3106,9 @@ msgstr "TANPA MEDIA"
 msgid "DO YOU WANT TO SWITCH THE SCREEN ?"
 msgstr "APAKAH INGIN BERALIH LAYAR?"
 
+msgid "INVALID CREDENTIALS"
+msgstr ""
+
 msgid "SCRAPING"
 msgstr "HIMPUN"
 
@@ -3566,6 +3587,15 @@ msgid ""
 msgstr ""
 "KALIBRASI GUN\n"
 "Sesuaikan Target untuk Melakukan Kalibrasi"
+
+#~ msgid "SCRAPER SETTINGS"
+#~ msgstr "PENGATURAN SCRAPER"
+
+#~ msgid "ACCOUNT"
+#~ msgstr "AKUN"
+
+#~ msgid "THE USER INTERFACE MODE IS NOW UNLOCKED"
+#~ msgstr "MODE ANTARMUKA PENGGUNA SEKARANG TERBUKA"
 
 #~ msgid "SHOW NETPLAY OPTIONS WHEN LAUNCHING GAME"
 #~ msgstr "TAMPILKAN OPSI NETPLAY SAAT MELUNCURKAN GAME"

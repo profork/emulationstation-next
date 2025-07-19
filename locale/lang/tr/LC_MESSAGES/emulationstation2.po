@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-06-06 20:30+0300\n"
+"PO-Revision-Date: 2025-06-30 20:03+0300\n"
 "Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish\n"
 "Language: tr\n"
@@ -191,7 +191,7 @@ msgid "enter game genres"
 msgstr "oyun türlerine giriş"
 
 msgid "Arcade system"
-msgstr "Oyun makinesi sistemi"
+msgstr "Arcade sistem"
 
 msgid "this game's arcade system"
 msgstr "bu oyunun oyun makinesi sistemi"
@@ -753,6 +753,15 @@ msgstr "YENİ GÜNCELLEME YOK"
 msgid "SCRAPER"
 msgstr "OYUN BİLGİLERİ"
 
+msgid "SCRAPE"
+msgstr "BİLGİ GETİRİCİ"
+
+msgid "ACCOUNTS"
+msgstr "HESAPLAR"
+
+msgid "go back"
+msgstr "geri git"
+
 msgid "SCRAPING DATABASE"
 msgstr "OYUN BİLGİLERİ VERİTABANI"
 
@@ -761,9 +770,6 @@ msgstr "KAYNAK"
 
 msgid "SCRAPE FROM"
 msgstr "OYUN BİLGİLERİNİ ŞURADAN AL"
-
-msgid "SCRAPER SETTINGS"
-msgstr "OYUN BİLGİ AYARLARI"
 
 msgid "FILTERS"
 msgstr "FİLTRELER"
@@ -775,7 +781,7 @@ msgid "ALL"
 msgstr "TÜMÜ"
 
 msgid "GAMES MISSING ANY MEDIA"
-msgstr "EKSİK MEDYALI OYUNLAR"
+msgstr "MEDYASI EKSİK OYUNLAR"
 
 msgid "GAMES MISSING ALL MEDIA"
 msgstr "MEDYASI OLMAYAN OYUNLAR"
@@ -810,8 +816,101 @@ msgstr "BİLGİLERİ ŞİMDİ GETİR"
 msgid "START"
 msgstr "BAŞLAT"
 
-msgid "go back"
-msgstr "geri git"
+msgid "IMAGE SOURCE"
+msgstr "RESİM KAYNAĞI"
+
+msgid "SCREENSHOT"
+msgstr "EKRAN GÖRÜNTÜSÜ"
+
+msgid "TITLE SCREENSHOT"
+msgstr "EKRAN GÖRÜNTÜSÜ BAŞLIĞI"
+
+msgid "MIX V1"
+msgstr "KARIŞIK V1"
+
+msgid "MIX V2"
+msgstr "KARIŞIK V2"
+
+msgid "BOX 2D"
+msgstr "2D KUTU"
+
+msgid "BOX 3D"
+msgstr "3D KUTU"
+
+msgid "FAN ART"
+msgstr "FAN GÖRSELİ"
+
+msgid "BOX SOURCE"
+msgstr "KUTU KAYNAĞI"
+
+msgid "LOGO SOURCE"
+msgstr "LOGO KAYNAĞI"
+
+msgid "HD WHEEL"
+msgstr "HD DİREKSİYON"
+
+msgid "WHEEL"
+msgstr "DİREKSİYON"
+
+msgid "MARQUEE"
+msgstr "KAYAN YAZI"
+
+msgid "PREFERED REGION"
+msgstr "TERCİH EDİLEN BÖLGE"
+
+msgid "AUTO"
+msgstr "OTOMATİK"
+
+msgid "OVERWRITE NAMES"
+msgstr "İSİMLERİ ÜZERİNE YAZ"
+
+msgid "OVERWRITE DESCRIPTIONS"
+msgstr "AÇIKLAMALARI ÜZERİNE YAZ"
+
+msgid "OVERWRITE MEDIAS"
+msgstr "MEDYALARI ÜZERİNE YAZ"
+
+msgid "SCRAPE FOR"
+msgstr "BİLGİSİNİ GETİR"
+
+msgid "SHORT NAME"
+msgstr "KISA İSİM"
+
+msgid "COMMUNITY RATING"
+msgstr "TOPLULUK DEĞERLENDİRMESİ"
+
+msgid "VIDEO"
+msgstr "VİDEO"
+
+msgid "FANART"
+msgstr "FAN GÖRSELİ"
+
+msgid "BEZEL (16:9)"
+msgstr "ÇERÇEVE (16:9)"
+
+msgid "BOX BACKSIDE"
+msgstr "KUTU ARKASI"
+
+msgid "MAP"
+msgstr "HARİTA"
+
+msgid "MANUAL"
+msgstr "KILAVUZ"
+
+msgid "PADTOKEY SETTINGS"
+msgstr "KOL İLE TUŞ AYARLARI"
+
+msgid "SCREENSCRAPER"
+msgstr "OYUN BİLGİLERİ"
+
+msgid "IGDB"
+msgstr "IGDB"
+
+msgid "CLIENT ID"
+msgstr "İSTEMCİ KİMLİĞİ"
+
+msgid "CLIENT SECRET"
+msgstr "GİZLİ İSTEMCİ"
 
 msgid ""
 "WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
@@ -877,7 +976,7 @@ msgid "Temperature"
 msgstr "Sıcaklık"
 
 msgid "Available memory"
-msgstr "Kullanılabilir hafıza"
+msgstr "Kullanılabilir bellek"
 
 msgid "Battery"
 msgstr "Pil"
@@ -1031,9 +1130,6 @@ msgstr "BİLGİ GETİRİCİ ÇALIŞIRKEN BU ÖZELLİK DEVRE DIŞIDIR"
 msgid "CHOOSE"
 msgstr "SEÇ"
 
-msgid "THE USER INTERFACE MODE IS NOW UNLOCKED"
-msgstr "KULLANICI ARAYÜZÜ MODU KİLİDİ AÇILDI"
-
 msgid "ENTER THE CODE NOW TO UNLOCK"
 msgstr "KİLİDİ AÇMAK İÇİN KODU GİRİN"
 
@@ -1060,9 +1156,6 @@ msgstr "dmd sunucu"
 
 msgid "FORMAT"
 msgstr "BİÇİM"
-
-msgid "AUTO"
-msgstr "OTOMATİK"
 
 msgid "dmd matrix size"
 msgstr "dmd matris boyutu"
@@ -1119,7 +1212,7 @@ msgid "DMD SCREEN"
 msgstr "DMD EKRANI"
 
 msgid "FRONTEND DEVELOPER OPTIONS"
-msgstr "GELİŞTİRİCİ SEÇENEKLERİ"
+msgstr "GELİŞMİŞ SEÇENEKLER"
 
 msgid "VIDEO OPTIONS"
 msgstr "VİDEO SEÇENEKLERİ"
@@ -1306,7 +1399,7 @@ msgstr ""
 "tuşuna uzun basın"
 
 msgid "CONTROL EMULATIONSTATION WITH FIRST JOYSTICK ONLY"
-msgstr "EMULATIONSTATION SADECE İLK KUMANDA İLE YÖNETİLSİN"
+msgstr "EMULATIONSTATION BİRİNCİL KONTROLCÜ İLE YÖNETİLSİN"
 
 msgid "GUN MOVE TOLERENCE"
 msgstr "SİLAH HAREKET TÖLERANSI"
@@ -1349,7 +1442,7 @@ msgid "THREADED LOADING"
 msgstr "İŞ PARÇACIKLARI YÜKLENİYOR"
 
 msgid "ASYNC IMAGE LOADING"
-msgstr "EŞ ZAMANSIZ RESİMLER YÜKLENİYOR"
+msgstr "RESİMLER EŞ ZAMANSIZ YÜKLENİYOR"
 
 msgid "OPTIMIZE IMAGES VRAM USE"
 msgstr "RESİM VRAM KULLANIMINI İYİLEŞTİR"
@@ -1487,7 +1580,7 @@ msgid "MISSING BIOS CHECK"
 msgstr "EKSİK BİOS DENETİMİ"
 
 msgid "CHECK BIOS FILES BEFORE RUNNING A GAME"
-msgstr "OYUN ÇALIŞTIRMADAN ÖNCE BİOS DENETİMİ"
+msgstr "OYUNU ÇALIŞTIRMADAN ÖNCE BİOS DENETLE"
 
 msgid "MULTIMEDIA KEYS"
 msgstr "MULTİMEDYA TUŞLARI"
@@ -1623,9 +1716,6 @@ msgstr "Mevcut ayarlar"
 
 msgid "UPDATE GAMELISTS"
 msgstr "OYUN LİSTELERİNİ GÜNCELLE"
-
-msgid "ACCOUNTS"
-msgstr "HESAPLAR"
 
 msgid "BIOS SETTINGS"
 msgstr "BİOS AYARLARI"
@@ -1794,14 +1884,16 @@ msgstr "OYUN LİSTESİ TARZI"
 msgid "GAMELIST VIEW STYLE"
 msgstr "OYUN LİSTESİ GÖRÜNÜMÜ"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "automatic"
-msgstr "otomatik"
+msgstr "OTOMATİK"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "basic"
-msgstr "temel"
+msgstr "BASİT"
 
 msgid "detailed"
-msgstr "ayrıntılı"
+msgstr "AYRINTILI"
 
 msgid "DEFAULT GRID SIZE"
 msgstr "VARSAYILAN IZGARA BOYUTU"
@@ -1828,13 +1920,13 @@ msgid "SHOW FOLDERS"
 msgstr "KLASÖRLERİ GÖSTER"
 
 msgid "always"
-msgstr "sürekli"
+msgstr "her zaman"
 
 msgid "never"
 msgstr "asla"
 
 msgid "having multiple games"
-msgstr "çoklu oyun mevcut"
+msgstr "çoklu oyun mevcutsa"
 
 msgid "SHOW '..' PARENT FOLDER"
 msgstr "'..' ÜST KLASÖRÜNÜ GÖSTER"
@@ -1863,6 +1955,7 @@ msgstr "SİLAH SİMGESİNİ GÖSTER"
 msgid "SHOW WHEEL ICON"
 msgstr "DİREKSİYON SİMGESİNİ GÖSTER"
 
+# TRACKBALL bir cihaz adı, çevirmeyin lütfen.
 msgid "SHOW TRACKBALL ICON"
 msgstr "TRACKBALL SİMGESİNİ GÖSTER"
 
@@ -1885,11 +1978,12 @@ msgstr "GÖRÜNÜM"
 msgid "THEME SET"
 msgstr "TEMA AYARLA"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "video"
-msgstr "video"
+msgstr "VİDEO"
 
 msgid "grid"
-msgstr "tablo"
+msgstr "TABLO"
 
 msgid "DISPLAY OPTIONS"
 msgstr "GÖRÜNTÜLEME SEÇENEKLERİ"
@@ -1900,8 +1994,9 @@ msgstr "EKRAN KORUYUCU AYARLARI"
 msgid "LIST TRANSITION"
 msgstr "GEÇİŞLERİ SIRALA"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "auto"
-msgstr "otomatik"
+msgstr "OTOMATİK"
 
 msgid "GAME LAUNCH TRANSITION"
 msgstr "OYUN BAŞLATICI GEÇİŞİ"
@@ -1966,6 +2061,12 @@ msgstr "SİSTEME ÖZGÜ MÜZİK OYNAT"
 msgid "LOWER MUSIC WHEN PLAYING VIDEO"
 msgstr "VİDEO OYNATIRKEN MÜZİĞİ KIS"
 
+msgid "PLAY ONLY SONGS FROM YOUR FAVORITES PLAYLIST"
+msgstr "SADECE FAVORİ OYNATMA LİSTENIZDEKİ ŞARKILARI OYNAT"
+
+msgid "SELECTION OF FAVORITE SONGS"
+msgstr "FAVORİ ŞARKILARDAN SEÇMELER"
+
 msgid "SOUNDS"
 msgstr "SESLER"
 
@@ -2014,6 +2115,12 @@ msgstr "SONRAKİ ŞARKIYA GEÇ"
 msgid "NOW PLAYING"
 msgstr "ŞİMDİ OYNATILIYOR"
 
+msgid "REMOVE CURRENT SONG FROM THE FAVORITES PLAYLIST"
+msgstr "MEVCUT ŞARKIYI FAVORİLER OYNATMA LİSTESİNDEN KALDIR"
+
+msgid "SAVE CURRENT SONG TO THE FAVORITES PLAYLIST"
+msgstr "MEVCUT ŞARKIYI FAVORİLER OYNATMA LİSTESİNE KAYDET"
+
 msgid "LAUNCH SCREENSAVER"
 msgstr "EKRAN KORUYUCUYU ÇALIŞTIR"
 
@@ -2060,7 +2167,7 @@ msgid "REALLY QUIT?"
 msgstr "ÇIKILSIN MI?"
 
 msgid "AUTO SAVE/LOAD ON GAME LAUNCH"
-msgstr "OTOMATİK KAYDET/YÜKLE"
+msgstr "OYUN BAŞLATILDIĞINDA OTOMATİK KAYDET/YÜKLE"
 
 msgid "Load latest save state on game launch and save state when exiting game."
 msgstr ""
@@ -2077,7 +2184,7 @@ msgid "OVERLAY CORNER"
 msgstr "KÖŞE KAPLAMALARI"
 
 msgid "COLORIZATION"
-msgstr "RENKLENDİRME"
+msgstr "RENKLENDİR"
 
 msgid "FULL BOOT"
 msgstr "TAM ÖNYÜKLEME"
@@ -2134,10 +2241,10 @@ msgid "THIS GAME HAS NO ACHIEVEMENTS YET"
 msgstr "BU OYUNDA HENÜZ BAŞARIM YOK"
 
 msgid "Achievements (softcore)"
-msgstr "Başarılar (softcore)"
+msgstr "Başarımlar (softcore)"
 
 msgid "Achievements (hardcore)"
-msgstr "Başarılar (hardcore)"
+msgstr "Başarımlar (hardcore)"
 
 #, c-format
 msgid "%d%% complete"
@@ -2189,7 +2296,7 @@ msgid "START GAME"
 msgstr "OYUNU BAŞLAT"
 
 msgid "HOST A NETPLAY GAME"
-msgstr "NETPLAY OYUNUNA EVSAHİBİ OL"
+msgstr "NETPLAY OYUNUNA EV SAHİBİ OL"
 
 msgid "PUBLICLY ANNOUNCE GAME"
 msgstr "OYUNU YAYINLAMAYI AÇ"
@@ -2236,9 +2343,6 @@ msgstr "ÖZEL KOLEKSİYONA EKLE..."
 msgid "DELETE COLLECTION"
 msgstr "KOLEKSİYONU SİL"
 
-msgid "SCRAPE"
-msgstr "BİLGİ GETİRİCİ"
-
 msgid "ADVANCED GAME OPTIONS"
 msgstr "GELİŞMİŞ OYUN SEÇENEKLERİ"
 
@@ -2262,90 +2366,6 @@ msgstr "BİR BLUETOOTH CİHAZI EŞLE"
 
 msgid "PAIR"
 msgstr "EŞLE"
-
-msgid "IMAGE SOURCE"
-msgstr "RESİM KAYNAĞI"
-
-msgid "SCREENSHOT"
-msgstr "EKRAN GÖRÜNTÜSÜ"
-
-msgid "TITLE SCREENSHOT"
-msgstr "EKRAN GÖRÜNTÜSÜ BAŞLIĞI"
-
-msgid "MIX V1"
-msgstr "KARIŞIK V1"
-
-msgid "MIX V2"
-msgstr "KARIŞIK V2"
-
-msgid "BOX 2D"
-msgstr "2D KUTU"
-
-msgid "BOX 3D"
-msgstr "3D KUTU"
-
-msgid "FAN ART"
-msgstr "FAN GÖRSELİ"
-
-msgid "BOX SOURCE"
-msgstr "KUTU KAYNAĞI"
-
-msgid "LOGO SOURCE"
-msgstr "LOGO KAYNAĞI"
-
-msgid "HD WHEEL"
-msgstr "HD DİREKSİYON"
-
-msgid "WHEEL"
-msgstr "DİREKSİYON"
-
-msgid "MARQUEE"
-msgstr "KAYAN YAZI"
-
-msgid "PREFERED REGION"
-msgstr "TERCİH EDİLEN BÖLGE"
-
-msgid "OVERWRITE NAMES"
-msgstr "İSİMLERİ ÜZERİNE YAZ"
-
-msgid "OVERWRITE DESCRIPTIONS"
-msgstr "AÇIKLAMALARI ÜZERİNE YAZ"
-
-msgid "OVERWRITE MEDIAS"
-msgstr "MEDYALARI ÜZERİNE YAZ"
-
-msgid "SCRAPE FOR"
-msgstr "BİLGİSİNİ GETİR"
-
-msgid "SHORT NAME"
-msgstr "KISA İSİM"
-
-msgid "COMMUNITY RATING"
-msgstr "TOPLULUK DEĞERLENDİRMESİ"
-
-msgid "VIDEO"
-msgstr "VİDEO"
-
-msgid "FANART"
-msgstr "FANGÖRSELİ"
-
-msgid "BEZEL (16:9)"
-msgstr "ÇERÇEVE (16:9)"
-
-msgid "BOX BACKSIDE"
-msgstr "KUTU ARKASI"
-
-msgid "MAP"
-msgstr "HARİTA"
-
-msgid "MANUAL"
-msgstr "KILAVUZ"
-
-msgid "PADTOKEY SETTINGS"
-msgstr "KOL İLE TUŞ AYARLARI"
-
-msgid "ACCOUNT"
-msgstr "HESAP"
 
 msgid "NO DEVICE FOUND"
 msgstr "CİHAZ BULUNAMADI"
@@ -2438,7 +2458,7 @@ msgid "PER GENRE"
 msgstr "TÜRE GÖRE"
 
 msgid "ARCADE SYSTEMS"
-msgstr "ARCADE SİSTEMLERİ"
+msgstr "ARCADE SİSTEMLER"
 
 msgid "AUTOMATIC GAME COLLECTIONS"
 msgstr "OTOMATİK OYUN KOLEKSİYONLARI"
@@ -2564,6 +2584,9 @@ msgstr ""
 "BAĞLADIĞINIZ BAZI DOSYALAR OYUN LİSTESİ YOLUNUN DIŞINDA BULUNMAKTADIR.\n"
 "OYUN LİSTESİNE GÖRE BU DOSYALARIN BİR KOPYASINI KULLANMAK İSTER MİSİNİZ?"
 
+msgid "FAVORITE SONGS"
+msgstr "FAVORİ ŞARKILAR"
+
 msgid "CONNECT TO NETPLAY"
 msgstr "NETPLAY BAĞLAN"
 
@@ -2659,7 +2682,7 @@ msgid "PAIR BLUETOOTH PADS AUTOMATICALLY"
 msgstr "BLUETOOTH PADLERİ OTOMATİK EŞLE"
 
 msgid "PAIR A BLUETOOTH DEVICE MANUALLY"
-msgstr "BİR BLUETOOTH CİHAZINI EL İLE EŞLE"
+msgstr "BLUETOOTH CİHAZINI EL İLE EŞLE"
 
 msgid "SHOW CONTROLLER NOTIFICATIONS"
 msgstr "KONTROLCÜ BİLDİRİMLERİNİ GÖSTER"
@@ -2671,7 +2694,7 @@ msgid "SHOW CONTROLLER BATTERY LEVEL"
 msgstr "KONTROLCÜ PİL SEVİYESİNİ GÖSTER"
 
 msgid "DRAW GUN CROSSHAIR"
-msgstr "SİLAH NİŞANGAHINI ÇİZ"
+msgstr "SİLAH NİŞANGAHINI GÖSTER"
 
 msgid "BEHAVIOR"
 msgstr "DAVRANIŞ"
@@ -2812,19 +2835,22 @@ msgid "SCREENSHOTS FOLDER"
 msgstr "EKRAN GÖRÜNTÜSÜ KLASÖRÜ"
 
 msgid "dim"
-msgstr "karart"
+msgstr "KARART"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "black"
-msgstr "siyah"
+msgstr "SİYAH"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "random video"
-msgstr "rasgele video"
+msgstr "RASGELE VİDEO"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "slideshow"
-msgstr "slayt gösterisi"
+msgstr "SLAYT GÖSTERİSİ"
 
 msgid "suspend"
-msgstr "askıya al"
+msgstr "ASKIYA AL"
 
 msgid "start & end"
 msgstr "başlat & bitir"
@@ -2848,7 +2874,7 @@ msgid "RANDOM VIDEO SCREENSAVER SETTINGS"
 msgstr "RASGELE VİDEO EKRAN KORUYUCU AYARLARI"
 
 msgid "VIDEO DURATION (SECS)"
-msgstr "VIDEO SÜRESİ (SANİYE)"
+msgstr "VİDEO SÜRESİ (SANİYE)"
 
 msgid "USE OMX PLAYER FOR SCREENSAVER"
 msgstr "EKRAN KORUYUCU İÇİN OMX PLAYER KULLAN"
@@ -2924,16 +2950,16 @@ msgstr ""
 "retroachievements.org"
 
 msgid "Full"
-msgstr "Tam"
+msgstr "TAM"
 
 msgid "Kiosk"
-msgstr "Kiosk"
+msgstr "KİOSK"
 
 msgid "Kid"
-msgstr "Çocuk"
+msgstr "ÇOCUK"
 
 msgid "Basic"
-msgstr "Basit"
+msgstr "BASİT"
 
 msgid "Games similar to"
 msgstr "Benzeşen oyunlar"
@@ -3102,6 +3128,9 @@ msgstr "KAYIP MEDYALAR"
 msgid "DO YOU WANT TO SWITCH THE SCREEN ?"
 msgstr "EKRANI DEĞİŞTİRMEK İSTİYOR MUSUN ?"
 
+msgid "INVALID CREDENTIALS"
+msgstr "GEÇERSİZ KİMLİK BİLGİLERİ"
+
 msgid "SCRAPING"
 msgstr "BİLGİLER GETİRİLİYOR"
 
@@ -3145,47 +3174,55 @@ msgid "Interlaced"
 msgstr "İç içe geçmiş"
 
 msgid "all games"
-msgstr "tüm oyunlar"
+msgstr "TÜM OYUNLAR"
 
 msgid "last played"
-msgstr "son oynanan"
+msgstr "SON OYNANAN"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "favorites"
-msgstr "favoriler"
+msgstr "FAVORİLER"
 
 msgid "2 players"
-msgstr "2 oyuncu"
+msgstr "2 OYUNCU"
 
 msgid "4 players"
-msgstr "4 oyuncu"
+msgstr "4 OYUNCU"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda.
+# ''hiç oynanmadı'' diye çevrilirse ''HIÇ OYNANMADI'' olarak kötü ve yanlış görünür.
 msgid "never played"
-msgstr "hiç oynanmadı"
+msgstr "HİÇ OYNANMADI"
 
 msgid "retroachievements"
-msgstr "retrobaşarımlar"
+msgstr "RETROBAŞARIMLAR"
 
 msgid "arcade"
-msgstr "arcade"
+msgstr "ARCADE"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "vertical arcade"
-msgstr "dikey arcade"
+msgstr "DİKEY ARCADE"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "lightgun games"
-msgstr "silah oyunları"
+msgstr "SİLAH OYUNLARI"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "wheel games"
-msgstr "direksiyon oyunları"
+msgstr "DİREKSİYONLU OYUNLAR"
 
+# TRACKBALL bir cihaz adı, çevirmeyin lütfen.
 msgid "trackball games"
-msgstr "trackball oyunları"
+msgstr "TRACKBALL OYUNLARI"
 
 # SPINNER bir cihaz adı, çevirmeyin lütfen.
 msgid "spinner games"
-msgstr "spiner oyunları"
+msgstr "SPINNER OYUNLARI"
 
+# Büyük harflerle çevrilmek zorunda, lütfen değiştirmeyin. ''uppercase'' kodu i harfini İ olarak çeviremediği için bu şekilde olmak zorunda..
 msgid "collections"
-msgstr "koleksiyonlar"
+msgstr "KOLEKSİYONLAR"
 
 #, c-format
 msgid "Added '%s' to '%s'"
@@ -3401,7 +3438,7 @@ msgid "DISCARD CHANGES"
 msgstr "DEĞİŞİKLİKLERİ YOKSAY"
 
 msgid "WELCOME"
-msgstr "HOŞGELDİNİZ"
+msgstr "HOŞ GELDİNİZ"
 
 #, c-format
 msgid "%i GAMEPAD DETECTED"
@@ -3563,7 +3600,7 @@ msgid "SET SELECT AS HOTKEY"
 msgstr "KISAYOL TUŞU ATA"
 
 msgid "DO NOT ASSIGN HOTKEY"
-msgstr "KISAYOL TUŞU ATAMA"
+msgstr "KISAYOL TUŞU ATANMASIN"
 
 #, c-format
 msgid "HOLD FOR %iS TO SKIP"
@@ -3589,3 +3626,9 @@ msgid ""
 msgstr ""
 "SİLAH KALİBRE EDİLİYOR\n"
 "Kalibrasyon için hedeflere ateş et"
+
+#~ msgid "SCRAPER SETTINGS"
+#~ msgstr "OYUN BİLGİ AYARLARI"
+
+#~ msgid "ACCOUNT"
+#~ msgstr "HESAP"
