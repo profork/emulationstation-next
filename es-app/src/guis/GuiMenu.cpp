@@ -1537,7 +1537,8 @@ void GuiMenu::openSystemSettings()
 		}
 	});
 #if defined(ROCKNIX)
-        // Add option to toggle mangohud
+      // Add option to toggle mangohud
+      if (Utils::Platform::GetEnv("DEVICE_MANGOHUD_SUPPORT") == "true"){
         auto mangohud_toggle = std::make_shared<SwitchComponent>(mWindow);
         bool internalmoduleEnabled = SystemConf::getInstance()->get("rocknix.mangohud.enabled") == "1";
         mangohud_toggle->setState(internalmoduleEnabled);
@@ -1551,6 +1552,7 @@ void GuiMenu::openSystemSettings()
                 bool mangohud_state = mangohud_toggle->getState();
                 SystemConf::getInstance()->set("rocknix.mangohud.enabled", mangohud_state ? "1" : "0");
         });
+      }
 #endif
 	// KODI SETTINGS
 #ifdef _ENABLE_KODI_
