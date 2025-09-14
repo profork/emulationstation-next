@@ -57,6 +57,8 @@ static std::map<std::string, std::function<BindableProperty(FileData*)>> propert
 	{ "genre",			    [](FileData* file) { return file->getGenre(); } },
 	{ "hasKeyboardMapping", [](FileData* file) { return file->hasKeyboardMapping(); } },	
 	{ "systemName",			[](FileData* file) { return file->getSourceFileData()->getSystem()->getFullName(); } },
+	{ "finished",			[](FileData* file) { return file->getFinished(); } },
+	{ "finishedDate",		[](FileData* file) { return file->getFinishedDate(); } },
 };
 
 FileData* FileData::mRunningGame = nullptr;
@@ -243,6 +245,18 @@ const bool FileData::getKidGame() const
 {
 	auto data = getMetadata(MetaDataId::KidGame);
 	return data != "false" && !data.empty();
+}
+
+const bool FileData::getFinished() const
+{
+	auto data = getMetadata(MetaDataId::Finished);
+	return data != "false" && !data.empty();
+}
+
+const std::string FileData::getFinishedDate() const
+{
+	auto data = getMetadata(MetaDataId::FinishedDate);
+	return data;
 }
 
 const bool FileData::hasCheevos()
@@ -611,11 +625,7 @@ std::string FileData::getlaunchCommand(LaunchGameOptions& options, bool includeC
 			command = Utils::String::replace(command, "%NETPLAY%", "--connect " + options.ip + " --port " + std::to_string(options.port) + " --nick " + SystemConf::getInstance()->get("global.netplay.nickname"));
 		else
 #endif
-#if ROCKNIX
-			command = Utils::String::replace(command, "%NETPLAY%", "--connect " + options.ip + " --port " + std::to_string(options.port) + " --nick " + SystemConf::getInstance()->get("global.netplay.nickname"));
-#else
 			command = Utils::String::replace(command, "%NETPLAY%", "-netplaymode " + mode + " -netplayport " + std::to_string(options.port) + " -netplayip " + options.ip + session + pass);
-#endif
 	}
 	else if (options.netPlayMode == SERVER)
 	{
@@ -624,11 +634,7 @@ std::string FileData::getlaunchCommand(LaunchGameOptions& options, bool includeC
 			command = Utils::String::replace(command, "%NETPLAY%", "--host --port " + SystemConf::getInstance()->get("global.netplay.port") + " --nick " + SystemConf::getInstance()->get("global.netplay.nickname"));
 		else
 #endif
-#if ROCKNIX
-			command = Utils::String::replace(command, "%NETPLAY%", "--host --port " + SystemConf::getInstance()->get("global.netplay.port") + " --nick " + SystemConf::getInstance()->get("global.netplay.nickname"));
-#else
 			command = Utils::String::replace(command, "%NETPLAY%", "-netplaymode host");
-#endif
 	}
 	else
 		command = Utils::String::replace(command, "%NETPLAY%", "");

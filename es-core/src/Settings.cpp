@@ -9,7 +9,6 @@
 #include <vector>
 #include "utils/StringUtil.h"
 #include "Paths.h"
-#include "../es-app/src/ApiSystem.h"
 
 Settings* Settings::sInstance = NULL;
 static std::string mEmptyString = "";
@@ -28,10 +27,10 @@ IMPLEMENT_STATIC_BOOL_SETTING(VolumePopup, true)
 IMPLEMENT_STATIC_BOOL_SETTING(BackgroundMusic, true)
 IMPLEMENT_STATIC_BOOL_SETTING(VSync, true)
 IMPLEMENT_STATIC_BOOL_SETTING(PreloadMedias, false)
-IMPLEMENT_STATIC_BOOL_SETTING(IgnoreLeadingArticles, true)
+IMPLEMENT_STATIC_BOOL_SETTING(IgnoreLeadingArticles, false)
 IMPLEMENT_STATIC_BOOL_SETTING(ShowFoldersFirst, true)
 IMPLEMENT_STATIC_BOOL_SETTING(ScrollLoadMedias, false)
-IMPLEMENT_STATIC_INT_SETTING(ScreenSaverTime, 3 * 60 * 1000)
+IMPLEMENT_STATIC_INT_SETTING(ScreenSaverTime, 5 * 60 * 1000)
 
 #if WIN32
 IMPLEMENT_STATIC_BOOL_SETTING(ShowNetworkIndicator, false)
@@ -161,7 +160,7 @@ void Settings::setDefaults()
     mStringMap["Overclock"] = "none";
 
 	mBoolMap["VSync"] = Settings::_VSync;
-	mStringMap["FolderViewMode"] = "always";
+	mStringMap["FolderViewMode"] = "never";
 	mStringMap["HiddenSystems"] = "";
 
 	mBoolMap["PublicWebAccess"] = false;	
@@ -171,26 +170,24 @@ void Settings::setDefaults()
 	mBoolMap["ScrapeRatings"] = true;
 	mBoolMap["ScrapeNames"] = true;	
 	mBoolMap["ScrapeDescription"] = true;
-	mBoolMap["ScrapePadToKey"] = false;
+	mBoolMap["ScrapePadToKey"] = true;
 	mBoolMap["ScrapeOverWrite"] = true;	
-	mBoolMap["ScrapeManual"] = true;
-	mBoolMap["ScrapeMap"] = true;
 	mBoolMap["IgnoreGamelist"] = false;
 	mBoolMap["HideConsole"] = true;
 	mBoolMap["QuickSystemSelect"] = true;
 	mBoolMap["MoveCarousel"] = true;
 	mBoolMap["SaveGamelistsOnExit"] = true;
 	mStringMap["ShowBattery"] = "text";
-	mBoolMap["CheckBiosesAtLaunch"] = false;
+	mBoolMap["CheckBiosesAtLaunch"] = true;
 	mBoolMap["RemoveMultiDiskContent"] = true;
 
 	mBoolMap["ShowNetworkIndicator"] = Settings::_ShowNetworkIndicator;
 
 	mBoolMap["Debug"] = false;
 
-	mBoolMap["InvertButtons"] = true;
+	mBoolMap["InvertButtons"] = false;
 
-	mBoolMap["GameOptionsAtNorth"] = true;
+	mBoolMap["GameOptionsAtNorth"] = false;
 	mBoolMap["LoadEmptySystems"] = false;
 	mBoolMap["HideUniqueGroups"] = true;
 	mBoolMap["DrawGunCrosshair"] = true;
@@ -201,32 +198,32 @@ void Settings::setDefaults()
 	mIntMap["ScraperResizeWidth"] = 640;
 	mIntMap["ScraperResizeHeight"] = 0;
 
-	auto totalRam = ApiSystem::getInstance()->GetTotalRam();
-	if ( totalRam <= 1025 ) {
-		mIntMap["MaxVRAM"] = 128;
-	} else if ( totalRam <= 2049 && totalRam > 1025) {
-		mIntMap["MaxVRAM"] = 256;
-	} else if ( totalRam <= 4097 && totalRam > 2049) {
-		mIntMap["MaxVRAM"] = 384;
-	} else {
-		mIntMap["MaxVRAM"] = 512;
-	}
+#if defined(_WIN32) || defined(TINKERBOARD) || defined(X86) || defined(X86_64) || defined(ODROIDN2) || defined(ODROIDC2) || defined(ODROIDXU4) || defined(RPI4)
+	// Boards > 1Gb RAM
+	mIntMap["MaxVRAM"] = 256;
+#elif defined(ODROIDGOA) || defined(GAMEFORCE) || defined(RK3326) || defined(RPIZERO2) || defined(RPI2) || defined(RPI3) || defined(ROCKPRO64)
+	// Boards with 1Gb RAM
+	mIntMap["MaxVRAM"] = 128;
+#elif defined(_RPI_)
+	// Rpi 0, 1
+	mIntMap["MaxVRAM"] = 128;
+#else
+	// Other boards
+	mIntMap["MaxVRAM"] = 100;
+#endif
 
 	mStringMap["TransitionStyle"] = "auto";
-	mStringMap["GameTransitionStyle"] = "instant";
+	mStringMap["GameTransitionStyle"] = "auto";
 
-	mStringMap["ThemeSet"] = "system-theme";
-	mStringMap["subset.distribution"] = "rocknix";
-	mStringMap["subset.gamelist-layout"] = "metadata-on";
-	mStringMap["subset.status-bar"] = "on";
-	mStringMap["ScreenSaverBehavior"] = "black";
+	mStringMap["ThemeSet"] = "";
+	mStringMap["ScreenSaverBehavior"] = "dim";
 	mStringMap["GamelistViewStyle"] = "automatic";
 
 	mStringMap["Scraper"] = "ScreenScraper";
 	mStringMap["ScrapperImageSrc"] = "ss";
 	mStringMap["ScrapperThumbSrc"] = "box-2D";
 	mStringMap["ScrapperLogoSrc"] = "wheel";
-	mBoolMap["ScrapeVideos"] = true;
+	mBoolMap["ScrapeVideos"] = false;
 	mBoolMap["ScrapeShortTitle"] = false;
 
 	mBoolMap["ScreenSaverDateTime"] = false;
@@ -238,7 +235,7 @@ void Settings::setDefaults()
 	mBoolMap["StretchVideoOnScreenSaver"] = false;
 	mStringMap["PowerSaverMode"] = "default"; 
 
-	mBoolMap["StopMusicOnScreenSaver"] = false;
+	mBoolMap["StopMusicOnScreenSaver"] = true;
 
 	mBoolMap["RetroachievementsMenuitem"] = true;
 	mIntMap["ScreenSaverSwapImageTimeout"] = 10000;
@@ -247,19 +244,19 @@ void Settings::setDefaults()
 	mStringMap["SlideshowScreenSaverImageFilter"] = ".png,.jpg";
 	mBoolMap["SlideshowScreenSaverRecurse"] = false;
 	mBoolMap["SlideshowScreenSaverGameName"] = true;
-	mStringMap["ScreenSaverDecorations"] = "none";
+	mStringMap["ScreenSaverDecorations"] = "systems";
 
 	mBoolMap["ShowCheevosIcon"] = true;
 
-	mBoolMap["ShowWheelIconOnGames"] = false;
-	mBoolMap["ShowGunIconOnGames"] = false;
-	mBoolMap["ShowTrackballIconOnGames"] = false;
-	mBoolMap["ShowSpinnerIconOnGames"] = false;
+	mBoolMap["ShowWheelIconOnGames"] = true;
+	mBoolMap["ShowGunIconOnGames"] = true;
+	mBoolMap["ShowTrackballIconOnGames"] = true;
+	mBoolMap["ShowSpinnerIconOnGames"] = true;
+	mBoolMap["ShowFinishedIconOnGames"] = true;
 
 	mBoolMap["SlideshowScreenSaverCustomVideoSource"] = false;
 	mStringMap["SlideshowScreenSaverVideoFilter"] = ".mp4,.avi";
 	mBoolMap["SlideshowScreenSaverVideoRecurse"] = false;
-	mStringMap["SlideshowScreenSaverImageDir"] = "/storage/roms/screenshots";
 
 	// This setting only applies to raspberry pi but set it for all platforms so
 	// we don't get a warning if we encounter it on a different platform
@@ -274,7 +271,6 @@ void Settings::setDefaults()
 
 	mIntMap["ScreenSaverSwapVideoTimeout"] = 30000;
 
-	mBoolMap["EnableVideoPreviews"] = true;
 	mBoolMap["VideoAudio"] = true;
 	mBoolMap["ScreenSaverVideoMute"] = false;
 	mBoolMap["VideoLowersMusic"] = true;
@@ -284,14 +280,14 @@ void Settings::setDefaults()
 
 	// Audio out device for Video playback using OMX player.
 	mStringMap["OMXAudioDev"] = "both";
-	mStringMap["CollectionSystemsAuto"] = "favorites, recent"; // 2players,4players,favorites,recent
+	mStringMap["CollectionSystemsAuto"] = "all,favorites"; // 2players,4players,favorites,recent
 	mStringMap["CollectionSystemsCustom"] = "";
 	mBoolMap["SortAllSystems"] = true; 
 	mStringMap["SortSystems"] = "manufacturer";
 	
 	mStringMap["UseCustomCollectionsSystemEx"] = "";
 	
-	mBoolMap["HiddenSystemsShowGames"] = false;
+	mBoolMap["HiddenSystemsShowGames"] = true;
 	mBoolMap["CollectionShowSystemInfo"] = true;
 	mBoolMap["FavoritesFirst"] = false;
 
@@ -388,11 +384,7 @@ void Settings::setDefaults()
 	mBoolMap["wifi.enabled"] = false;
 #endif
 
-	mStringMap["LogLevel"] = "warning";
-
 	mFloatMap["GunMoveTolerence"] = 2.5;
-
-	mBoolMap["DisableTouchscreen"] = false;
 
 	mDefaultBoolMap = mBoolMap;
 	mDefaultIntMap = mIntMap;
